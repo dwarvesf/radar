@@ -32,4 +32,6 @@ Topic Name
 
 [How to write a RFC](./rfc.md)
 
+### Note: RFC is mandatory
+
 Then create a PR named The Topic (ex: SwiftUI)
