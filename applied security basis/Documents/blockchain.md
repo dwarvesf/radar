@@ -1,15 +1,10 @@
-
-Bien Vo
-
-Feb 2020
-
----
 # Blockchain security
----
+
 ## Abstract
 This document describes the fundamental theory of blockchain security and provides knowledge to answer a few questions such as **What makes a blockchain system secure ?**, **How is the consensus mechanism implemented ?**, **The role of cryptography in blockchain security**. It also tries to help the reader visualize the way that the blockchain-based system makes to get security.
+
 ## Status of this Memo
-This document is missing a detail description of [The most important feature]() in [section 3]().
+Updating
 
 ## Table of Contents
 [1. Introduction](#1-introduction)
@@ -62,25 +57,54 @@ There are usually three types of information is stored in each block:
 Essentially block hash like a block’s fingerprint, it is commonly a unique string of character generated depend on data of transactions, hash of previous block and other factors that are determined by network publishers to fix with their customers and target market.
 
 Take a look at this example, noted that (1) and (2) is the same thing:
-```
-... ---> [Block1: Info1; blk0-hash; hash(1)] ---> [Block2: Info2; blk0-hash(2); hash]---> ...
-```
+
+![Blockchain structure](./img/blockchain/blockchain-des-1.png)
+
+![Blockchain broken](./img/blockchain/blockchain-des-2.png)
+
 We can see above **Block2** contains the hash string of **Block1**, and uses it as a signature to know where is this block located. If **Block1**'s hash is changed, the link will be broken. To make the chain sense again, re-generate hash of Block2 and every block after that is needed. It is usually a hard job.
 
-### 3. What makes a blockchain system secure?
+Depend on the way that blockchain works, there is many features that make blockchain attractive for financial use cases in terms of confidentiality and privacy:
+- Avoids the need of midle-man which can reduce transfer cost.
+- Supports for digital transactions.
+- Easy to share information in the network.
+
+### 3. What makes a blockchain system secure
 Description in [section 2](#2-how-does-blockchain-works) is a very simple view about blockchain to help everybody without technical knowledge to get an overview of the blockchain system. In the real-life, blockchain is a complex platform with a variety of properties, theories, algorithms, and mechanisms. A lot of things contribute to building blockchain security that includes advanced cryptographic techniques and mathematical models of behavior and decision-making and this is far from a simple subject. Therefore, this is very important to understand a few basic concepts and mechanisms that make blockchain have robust protection.
 
 #### 3a. The most important features
-Decentralization
+**Decentralization**
+
 > Copies of the blockchain ledger are stored and updated on each node-computer in the network, meaning that there is no central authority to make decisions.
 
-Immutability
-> Ability of blockchain to prevent alteration of confirmed transactions. So that priority guarantees the integrity of data. It also means that transaction records after each newly confirmed block of data to be valid.
+Almost all systems today are operating into centralization, meaning authorities will be held by a single highest authority in charge of managing systems, such as a central bank, state apparatus, company or event a class. This method helps someone get mastership and ensure the process is methodical from top-down. But this exists several crucial disadvantages such as any malfunction at the top operation has negatives effect on the entire system, stemming from the fact that any central authority also plays the role of a single point of failure in the system. To resolve centralization's disadvantages, a contrast feature is created, called **Decentralization**. This is a process of distributing and dispersing power away from a central authority.
 
-Consensus
-> Ability of nodes agrees on the true state of the network to ensure that the rules of the system are being followed and all parties involved agree on the current network's state.
+A few advantages of decentralization
+- Reduces the burden on top executives
+- Facilitates diversification
+- Better control and supervision
+- Quick Decision-Making
 
-Combined, decentralization, consensus, and immutability provide the framework for data security in Blockchain networks.
+**Consensus**
+> The ability of nodes agrees on the true state of the network to ensure that the rules of the system are being followed and all parties involved agree on the current network's state.
+
+In any centralized system, like the company employee management system, a central administrator has the authority to maintain and update the database. In another side, blockchain is a distributed decentralized. There is no single central authority to make a decision about the validity of each transaction. But transactions of the blockchain system is always secured and verified because of consensus mechanisms.
+
+A consensus algorithm is a procedure through which all the peers of the blockchain network reach a common agreement about the present state of a distributed ledger. It establishes trust between unknown peers in the network and ensures that the one and only one truth that is agreed by all the nodes in the blockchain system, is added into the ledger.
+
+There are many consensus protocols in the blockchain:
+- Proof of Work (PoW)
+- Proof of Stake (PoS)
+- Delegated Proof of Stake (DPoS)
+- Proof of Important (PoI)
+- Proof of Elapsed Time (PoET)
+
+**Immutability**
+> Immutable means that something is unchanging over time or unable to be changed.
+
+For example, when I send a message into a group chat on Facebook, it has done. I can't delete or edit it. If I want to delete it, I have to persuade my every friend in this group to delete the message. So I say that it got immutability from my perspective.
+
+In blockchain, it is ability to prevent alteration of confirmed transactions. So that priority guarantees the integrity of data. It also means that transaction records after each newly confirmed block of data to be valid.
 
 #### 3b. Cryptography in blockchain security
 ##### 3b.1 Cryptography techniques
@@ -89,27 +113,36 @@ Before research about the role of cryptography in blockchain security, we need t
 In short, cryptography is the process converting readable info into unintelligible info and vice-versa. Depend on this characteristic, cryptography has many applications such as storing, transmitting data with benefits on protection and authentication.
 
 Modern cryptography has a few properties:
-- Confidentiality
-    > Nobody can understand the content of encrypted information.
-- Integrity
-    > The information that is encrypted, can't be altered by anyone.
-- Non-repudiation
-    > Sender cannot deny their intentions in the transmission of the information at a later stage.
-- Authentication
-    > Can confirm who is in the system.
+**Confidentiality**
+> Nobody can understand the content of encrypted information.
+
+In detail, confidentiality is the protection of information from unauthorized persons. To implement this characteristic, blockchain using encrypt function that converts readable information to an unreadable format called cipher and ability decryption is only provides for the person who got authorization. It also means that if the information is held in confidence, it will be shared only after authorization is provided, and then only with authorized individuals.
+
+**Integrity**
+> The information that is encrypted, can't be altered by anyone.
+
+This is critical respect to the design, implementation, and usage of any system which stores, processes, or retrieves data. Integrity ensures that information is accurate and consistent over its entire life-cycle. The meaning of this concept is very varied depends on the field that applies it. In our context, it is invariability of encrypted information.
+
+**Non-repudiation**
+> Sender cannot deny their intentions in the transmission of the information at a later stage.
+
+Non-repudiation is the assurance that nobody can reject the validity of something in the system. In other words, non-repudiation makes the system avoids the ability that a message or information is denied its original location as well as authenticity and integrity. It is widely applied in the information security field to get proof of the origin and the integrity of data.
 
 From the above properties, there are three popular types of cryptography:
+
+![Symmetric-key Cryptography](./img/blockchain/cryptography.png)
+
 - Symmetric-key Cryptography
     > Sender and receiver use the same key to encrypt and decrypt infomations.
-    ```
-    (Readable data)  ===key+encoder==> (Cipher) ====key+decoder===> (Original data)
-    ```
+
+    ![Symmetric-key Cryptography](./img/blockchain/symmetric-key.png)
+
+
 
 - Public-Key Cryptography
     > There are two key in this algorithm: public key is freely distributed and use for encrypting infomation, in the other hand, private key is secret and using for decrypting cipher to readable infomation.
-    ```
-    (Readable data) ===public key+encoder==>(Cipher)===private key+decoder===> (Original data)
-    ```
+
+    ![Public-Key Cryptography](./img/blockchain/public-key.png)
 
 - Hash Functions
     > No key is used. Information is transferred through a function that has a few properties such as result is a fixed-length string (hash), the same input makes the same output, different input leads to completely different output and output can not be reversed.
@@ -144,6 +177,9 @@ To understand clearly the above properties of PoW and the way that they interact
 In the Bitcoin, a few transactions occurred on the network is packed in a block. To identify each block, Bitcoin blockchain system uses a hash string that is generated by using a cryptography hash function. This hash is generated depend on block's stored data, previous block's hash and another factor (in this context, this is a random **nonce** number). We can imagine that the three above properties are combined together and transmitted through a hash function to get the identificational hash string.
 
 Specific example with Bitcoin mechanism
+
+![PoW](./img/blockchain/pow.png)
+
 
 Let's assume a rule in a mining round like following: Miner needs finding a random nonce so that combines it with block's data and previous block's hash together and pass through hash function SHA-256, required result is a hash string starting with 4 zeros. E.x: `0000ankhsdqk12KLwkqLKWK...`.
 
@@ -200,7 +236,6 @@ Assuming that we have a PoS Blockchain Network. In this network, if you want to 
 - Proof of Word Blockchain gets security by using computational power (Work).
 - Proof of Stake Blockchain is secure because of the constraint of locked coins ( known as security deposits - Stake).
 
----
 ## Reference
 
 <a name="ref1">[1]</a>  "What is Cryptography? | Cryptographic Algorithms | Types of ...." 20 Dec. 2019, https://www.edureka.co/blog/what-is-cryptography/.
