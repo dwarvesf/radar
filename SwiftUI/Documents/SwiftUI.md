@@ -13,6 +13,14 @@ SwiftUI works for iPad, Mac, Apple TV and Watch. There are minimal code changes 
 
  Most controls and data work across all platforms, with some minor layout changes and navigation. Those controls will be automatically translated for you, using the appropriate UI for their specific platform. For example, a Picker will look like a List in iOS, but it'll look like a drop-down for Mac.
 
+# Learn once, apply anywhere
+
+When Apple announced SwiftUI, they made an important distinction: SwiftUI is not a multi-platform framework, but is instead a framework for creating apps on multiple platforms.
+
+That might seem like the same thing being said in two different ways, but in practice it means that many parts of SwiftUI work great on iOS, but aren’t available on macOS, or are designed specifically for watchOS and so aren’t available anywhere else.
+
+Yes, the core of your app remains unchanged: your models, your networking, and much of your user interface. But to get great apps – to build apps that are really tailored for each of Apple’s platforms – you need to add some platform-specific enhancements. How should your app use the Digital Crown on watchOS? What about the Play/Pause button on tvOS? Or right-click menus on macOS?
+
 # Layout system
 
 ## Layout Process
@@ -316,6 +324,76 @@ struct RepoRow: View {
         }
     }
 }
+```
+# Reusing SwiftUI views across Apple platforms
+
+## Using if macro
+
+This screen also has a picker component with the SegmentedPicker style, which allows changing the data represented in the chart. Unfortunately, watchOS doesn’t support SegmentedPicker style. That’s why I decide to remove it from the watchOS app but keep it in the iOS app. We can conditionally include or exclude code by using #if macro in SwiftUI.
+
+```Swift
+   @State private var chart: Chart = .sleepPhases
+
+    private var chartSection: some View {
+        VStack {
+            #if os(iOS)
+            Picker(selection: $chart, label: Text("chartType")) {
+                Text("phases").tag(Chart.sleepPhases)
+                Text("heartRate").tag(Chart.heartRate)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .labelsHidden()
+            #endif
+
+            BarChartView(bars: bars, labelsCount: 5)
+                .frame(height: 280)
+                .animation(.spring())
+        }
+    }
+```
+
+## Using Container View
+Container View is a view that handles the data flow and doesn’t render any User Interface itself. Instead, Container View fetches the data and passes it to a Rendering View.
+
+Because WatchOS don't have the NavigationBarItems modifier so we can solve this problem by:
+1. Create a shared SleepDetailView
+2. Create 2 version of SleepDetailsContainer for each platform
+
+```Swift
+
+// iOS
+struct IOSSleepDetailsContainer: View {
+    @EnvironmentObject var store: SleepStore
+
+    var body: some View {
+        SleepDetailsView(sleep: store.sleep)
+            .onAppear(perform: store.fetch)
+            .navigationBarItems(trailing: EditButton())
+    }
+}
+
+// watchOS
+struct WatchSleepDetailsContainer: View {
+    @EnvironmentObject var store: SleepStore
+
+    var body: some View {
+        SleepDetailsView(sleep: store.sleep)
+            .onAppear(perform: store.fetch)
+    }
+}
+
+struct SleepDetailsView: View {
+    let sleep: Sleep
+
+    var body: some View {
+        Form {
+            chartSection
+            durationSection
+            phasesSection
+            heartRateSection
+            noiseSection
+        }
+    }
 ```
 
 # The cons of SwiftUI
