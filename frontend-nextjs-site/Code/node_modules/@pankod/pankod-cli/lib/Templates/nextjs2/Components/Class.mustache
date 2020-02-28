@@ -1,0 +1,99 @@
+// #region Global Imports
+import React from "react";
+{{#isConnectStore}}
+import { connect } from "react-redux";
+import { Dispatch, bindActionCreators } from "redux";
+{{/isConnectStore}}
+// #endregion Global Imports
+
+// #region Local Imports
+{{#isPage}}
+import { withTranslation } from "@Server/i18n";
+{{/isPage}}
+{{#isConnectStore}}
+import { IStore } from "@Redux/IStore";
+import { {{upperFileName}}Actions } from "@Actions";
+{{/isConnectStore}}
+{{#hasStyle}}
+    {{#isScss}}
+import "./style.scss";
+    {{/isScss}}
+    {{#isStyled}}
+        {{#isPage}}
+import { Container } from "@Styled/{{upperFileName}}";
+        {{/isPage}}
+        {{^isPage}}
+import { Container } from "./styled";
+        {{/isPage}}
+    {{/isStyled}}
+{{/hasStyle}}
+// #endregion Local Imports
+
+// #region Interface Imports
+{{#isPage}}
+import { ReduxNextPageContext, {{interfaceName}} } from "@Interfaces";
+{{/isPage}}
+{{^isPage}}
+import { {{interfaceName}} } from "./{{upperFileName}}";
+{{/isPage}}
+// #endregion Interface Imports
+
+export class {{upperFileName}} extends React.Component<
+    {{interfaceName}}.IProps,
+{{#isPage}}
+    {{interfaceName}}.InitialProps
+{{/isPage}}
+{{^isPage}}
+    {{interfaceName}}.IState
+{{/isPage}}
+> {
+    constructor(props: {{interfaceName}}.IProps) {
+        super(props);
+        {{^isPage}}
+
+        this.state = {};
+        {{/isPage}}
+    }
+    {{#isPage}}
+    async getInitialProps(ctx: ReduxNextPageContext): Promise<
+        {{interfaceName}}.InitialProps
+    > {
+        return { namespacesRequired: ["common"] };
+    };
+    {{/isPage}}
+
+    render() {
+        return (
+            {{#isStyled}}
+            <Container>
+                {{upperFileName}} Page
+            </Container>
+            {{/isStyled}}
+            {{^isStyled}}
+            <section id="{{lowerFileName}}">
+                {{upperFileName}} Page
+            </section>
+            {{/isStyled}}
+        );
+    }
+}
+{{#isConnectStore}}
+
+const mapStateToProps = (state: IStore) => state.{{lowerFileName}};
+
+const mapDispatchToProps = (dispatch: Dispatch) => {
+    bindActionCreators({{upperFileName}}Actions, dispatch);
+}
+
+const connected = connect(mapStateToProps, mapDispatchToProps);
+{{/isConnectStore}}
+{{#isPage}}
+
+{{#isConnectStore}}export default withTranslation("common")(connected({{upperFileName}}));{{/isConnectStore}}{{^isConnectStore}}export default withTranslation("common")({{upperFileName}});{{/isConnectStore}}
+{{/isPage}}
+{{^isPage}}
+{{#isConnectStore}}
+
+export default connected;
+{{/isConnectStore}}
+{{/isPage}}

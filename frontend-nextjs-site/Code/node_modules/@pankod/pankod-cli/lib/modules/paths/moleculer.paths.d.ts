@@ -1,0 +1,31 @@
+export declare const moleculer: {
+    brokerHelper: string;
+    entityDir: string;
+    integrationTestDir: string;
+    interfaceDir: string;
+    repositoriesDir: string;
+    repositoriesTestDir: string;
+    serviceHelperTestDir: string;
+    servicesDir: string;
+    servicesHelperDir: string;
+    servicesTestDir: string;
+    templates: {
+        brokerHelperCreate: string;
+        brokerHelperImport: string;
+        createEntityIndexTemplate: string;
+        createEntityTemplatePath: string;
+        createServiceHelperIndexTemplate: string;
+        createServiceHelperTemplatePath: string;
+        createServiceHelperTestTemplatePath: string;
+        createServiceIndexTemplate: string;
+        createServiceIntegrationTestTemplate: string;
+        createServiceTemplatePath: string;
+        createServiceTestTemplate: string;
+        createInterfaceFolderIndexTemplate: string;
+        createInterfaceIndexInterfaceTemplate: string;
+        createInterfaceTemplatePath: string;
+        createRepositoryIndexTemplate: string;
+        createRepositoryTemplatePath: string;
+        createRepositoryTestTemplatePath: string;
+    };
+};

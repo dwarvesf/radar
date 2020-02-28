@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine|Oswald|Patua+One&display=swap');
+
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: left;
+
+    .titles {
+        width: 60%;
+    }
+
+    .img-container {
+        width: 35%;
+        text-align: center;
+
+    }
+
+    img {
+        max-height: 500px;
+    }
+
+    h1 {
+        font-family: 'Patua One', ;
+        font-size: 2.5em;
+      }
+
+      h2 {
+        font-family: 'Oswald', ;
+        font-size: 8.5em;
+        line-height: 1;
+        margin-bottom: 80px;
+    }
+}
+
+.description {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    #desc {
+        font-family: 'Cousine', ;
+        font-size: 1rem;
+        letter-spacing: 0.02rem;
+    }
+
+    .ingredients {
+        width: 60%;
+        font-family: 'Oswald', ;
+    }
+
+    .vital-stats {
+        width: 35%;
+
+        .ibu,
+        .abv {
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'Patua One', ;
+            font-size: 2.5em;
+
+            span {
+                display: block;
+                margin: 8px auto 0;
+                padding: 12px 0 0;
+                max-width: 175px;
+                font-family: 'Oswald', ;
+                font-size: 0.4em;
+                letter-spacing: 0.05em;
+                border-top: 3px solid #000;
+            }
+        }
+    }
+
+    hr {
+        border: 1px solid #000000;
+    }
+
+    h5 {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+
+    span {
+        margin-top: 5px;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    li {
+        font-size: 1.5rem;
+        list-style-type: circle;
+        margin-left: 20px;
+    }
+
+
+}

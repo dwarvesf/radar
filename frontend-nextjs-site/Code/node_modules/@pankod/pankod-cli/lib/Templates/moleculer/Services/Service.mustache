@@ -1,0 +1,62 @@
+// #region Global Imports
+import { Context } from 'moleculer';
+import { Action, BaseSchema, Method } from 'moleculer-decorators';
+import { getConnection } from 'typeorm';
+// #endregion Global Imports
+
+// #region Local Imports
+import { {{upperFileName}}Helper } from '@ServiceHelpers';
+import { } from '@Repositories';
+{{#hasDatabase}}
+import connectionInstance from "@Entities/Connection";
+{{/hasDatabase}}
+// #endregion Local Imports
+
+// #region Interface Imports
+import { {{interfaceName}} } from '@Interfaces';
+// #endregion Interface Imports
+
+export class {{upperFileName}}Service extends BaseSchema {
+
+	public name: string = '{{lowerFileName}}';
+{{#hasDatabase}}
+	public started: Function = async () => await connectionInstance();
+{{/hasDatabase}}
+
+{{#isPrivate}}
+	/**
+	* @swagger
+	*
+	*  /{{lowerFileName}}/<methodName>:
+	//Example usage of swagger https://swagger.io/docs/specification/2-0/basic-structure/ }}//
+	*      responses:
+	*        200:
+	*          description: Response message
+	*        422:
+	*          description: Response message
+	*/
+{{/isPrivate}}
+	@Action({
+		params: {},
+	})
+	public async {{upperFileName}}(
+        ctx: Context<{{interfaceName}}.methodNameInDto>,
+    ): Promise<{{interfaceName}}.methodNameOutDto> {
+		const response = await this.methodName(ctx);
+
+		return response;
+	}
+
+	@Method
+	public async {{upperFileName}}Method(
+        ctx: Context<{{interfaceName}}.methodNameInDto>,
+    ): Promise<{{interfaceName}}.methodNameOutDto> {
+        // ...
+	}
+{{#hasDatabase}}
+
+	public stopped: Function = async () => await getConnection().close();
+{{/hasDatabase}}
+}
+
+module.exports = new {{upperFileName}}Service();

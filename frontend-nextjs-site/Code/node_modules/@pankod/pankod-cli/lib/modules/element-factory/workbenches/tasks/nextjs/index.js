@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+tslib_1.__exportStar(require("./createClassComponent.task"), exports);
+tslib_1.__exportStar(require("./createFuncComponent.task"), exports);
+tslib_1.__exportStar(require("./addActionConstIndex.task"), exports);
+tslib_1.__exportStar(require("./createInterface.task"), exports);
+tslib_1.__exportStar(require("./createStyle.task"), exports);
+tslib_1.__exportStar(require("./addReducer.task"), exports);
+tslib_1.__exportStar(require("./addAction.task"), exports);
+tslib_1.__exportStar(require("./addRoute.task"), exports);

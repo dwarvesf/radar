@@ -1,0 +1,82 @@
+// #region Global Imports
+import React from "react";
+{{#isPage}}
+import { NextPage } from "next";
+{{/isPage}}
+{{#isConnectStore}}
+import { useSelector, useDispatch } from "react-redux";
+{{/isConnectStore}}
+// #endregion Global Imports
+
+// #region Local Imports
+{{#isPage}}
+import { withTranslation } from "@Server/i18n";
+{{/isPage}}
+{{#isConnectStore}}
+import { IStore } from "@Redux/IStore";
+import { {{upperFileName}}Actions } from "@Actions";
+{{/isConnectStore}}
+{{#hasStyle}}
+    {{#isScss}}
+import "./style.scss";
+    {{/isScss}}
+    {{#isStyled}}
+        {{#isPage}}
+import { Container } from "@Styled/{{upperFileName}}";
+        {{/isPage}}
+        {{^isPage}}
+import { Container } from "./styled";
+        {{/isPage}}
+    {{/isStyled}}
+{{/hasStyle}}
+// #endregion Local Imports
+
+// #region Interface Imports
+{{#isPage}}
+import { ReduxNextPageContext, {{interfaceName}} } from "@Interfaces";
+{{/isPage}}
+{{^isPage}}
+import { {{interfaceName}} } from "./{{upperFileName}}";
+{{/isPage}}
+// #endregion Interface Imports
+
+{{#isPage}}
+export const {{upperFileName}}: NextPage<
+    {{interfaceName}}.IProps,
+    {{interfaceName}}.InitialProps
+> = ({ t, i18n }) => {
+{{/isPage}}
+{{^isPage}}
+export const {{upperFileName}}: React.FunctionComponent<
+    {{interfaceName}}.IProps
+> = (props: {{interfaceName}}.IProps) => {
+{{/isPage}}
+    {{#isConnectStore}}
+    const {{lowerFileName}} = useSelector((state: IStore) => state.{{lowerFileName}});
+    const dispatch = useDispatch();
+    {{/isConnectStore}}
+
+    return (
+        {{#isStyled}}
+        <Container>
+            {{upperFileName}} Page
+        </Container>
+        {{/isStyled}}
+        {{^isStyled}}
+        <section id="{{lowerFileName}}">
+            {{upperFileName}} Page
+        </section>
+        {{/isStyled}}
+    );
+};
+
+{{#isPage}}
+{{upperFileName}}.getInitialProps = async (
+    ctx: ReduxNextPageContext
+): Promise<{{interfaceName}}.InitialProps> => {
+
+    return { namespacesRequired: ["common"] };
+};
+
+export default withTranslation("common")({{upperFileName}});
+{{/isPage}}

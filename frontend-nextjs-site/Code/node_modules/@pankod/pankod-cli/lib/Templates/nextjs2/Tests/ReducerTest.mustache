@@ -1,0 +1,14 @@
+// #region Local Imports
+import { IAction, {{interfaceName}} } from "@Interfaces";
+import { ActionConsts } from "@Definitions";
+import { {{fileName}}Reducer } from ".";
+// #endregion Local Imports
+
+describe("{{fileName}} reducer", () => {
+    it("should return the initial state", () => {
+        expect({{fileName}}Reducer(
+            undefined,
+            {} as IAction<{{interfaceName}}.IStateProps>)
+        ).toEqual({});
+    });
+});

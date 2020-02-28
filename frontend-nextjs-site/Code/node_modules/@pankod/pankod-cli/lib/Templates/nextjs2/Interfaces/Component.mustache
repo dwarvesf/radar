@@ -1,0 +1,28 @@
+{{#isPage}}
+// #region Global Imports
+import { WithTranslation } from "next-i18next";
+// #endregion Global Imports
+{{/isPage}}
+
+export declare module {{interfaceName}} {
+    export interface IProps{{#isPage}} extends WithTranslation{{/isPage}} { }
+    {{^isPage}}
+
+    export interface IState { }
+    {{/isPage}}
+    {{#isPage}}
+
+    export interface InitialProps {
+        namespacesRequired: string[];
+    }
+    {{/isPage}}
+    {{#isConnectStore}}
+
+    export interface IStateProps { }
+
+    module Actions {
+        export interface IMapPayload { }
+        export interface IMapResponse { }
+    }
+    {{/isConnectStore}}
+}

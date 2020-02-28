@@ -1,0 +1,6 @@
+{{#isClass}}
+export * from "@Components/{{fileName}}";
+{{/isClass}}
+{{^isClass}}
+export { {{fileName}} } from "@Components/{{fileName}}";
+{{/isClass}}

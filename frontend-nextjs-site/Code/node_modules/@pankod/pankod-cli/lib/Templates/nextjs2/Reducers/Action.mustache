@@ -1,0 +1,14 @@
+// #region Local Imports
+import { ActionConsts } from "@Definitions";
+// #endregion Local Imports
+
+export const {{fileName}}Actions = {
+    Map: (payload: any) => ({
+            payload,
+            type: ActionConsts.{{fileName}}.SetReducer
+    }),
+
+    Reset: () => ({
+        type: ActionConsts.{{fileName}}.ResetReducer
+    })
+};
