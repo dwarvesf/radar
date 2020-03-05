@@ -32,6 +32,8 @@ Topic Name
 
 [How to write a RFC](./rfc.md)
 
-### Note: RFC is mandatory
+### Note: RFC is mandatory. You can follow above example or use these as references:
+https://github.com/apple/swift-evolution/tree/master/proposals
+https://github.com/golang/proposal/tree/master/design
 
 Then create a PR named The Topic (ex: SwiftUI)
