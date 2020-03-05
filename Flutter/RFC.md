@@ -1,35 +1,38 @@
 # Title of RFC
 
-| Status        |                                                 |
+| Status        |Assess                                                 |
 | :------------ | :-------------------------------------------------------------------------------------------- |
 | **Author(s)** | Truong Khanh (khanhth@dwarvesv.com)                                          |
 | **Type** | Langues or Framework                                          |
 
 ## Objective
 
-- I create an application by using flutter, learning flutter and research best practice of it.
-- Comparison a little between flutter and jetpack compose.
 - The goal is to build a news app. That get data from rss api and show it up.
+- Comparison a little between flutter and jetpack compose.
 
 ## Motivation
 
-Why this is a valuable problem to solve? What background information is needed
-to show how this design addresses the problem?
+Flutter is Google's UI toolkit for building beatiful, natively compiled applications for mobile, web and desktop from a single codebase.
 
-Which users are affected by the problem? Why is it a problem? What data supports
-this? What related work exists?
+## Benefit when using flutter?
 
-- Knowing flutter, help for my career.
+- Fast development
+- Expressive and Flexible UI
+- Native Performance
 
-## Benefit
+Building time is reduced, multiple platform support, good performance all of that made flutter become one of the best things you want to learn at this time.
 
-How will people benefit from this work? How this can benefit your work?
+## Flutter comparison with jetpack compose
 
-- Maybe people will interested in my comparison about flutter and jetpack compose than other.
+|Flutter|Jetpack Compose|
+|:---|:---|
+|Flutter is ready to being use in production apps|Jetpack Compose in the same time is working on by google and far from being usable in production apps|
+|Cost more code line to create widget|Cost less code line to create composable because the power of kotlin DSLs|
+|Hot Reload is better than "Instant Run" on android studio|@Preview is an amazing feature, it can help you see the design before you need to build the app|
 
-## Code & Documents/Slides
+## Github source code news app
 
-Link to your code folder (for tool) or documents/slides (for Technique, Langues, Framework and Platform)
+https://github.com/khanhtruonghung/NewsAppDemoFlutter
 
 ## Tutorials and Examples
 
