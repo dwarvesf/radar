@@ -1,3 +1,3 @@
-https://github.com/segmentio/kafka-go/tree/master/examples
+# Example using Kafka library in go
 
-https://github.com/confluentinc/confluent-kafka-go/tree/master/examples
+[kafka-go](https://github.com/segmentio/kafka-go/tree/master/examples)
