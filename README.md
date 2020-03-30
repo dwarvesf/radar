@@ -1,6 +1,11 @@
 # TechRadar
 
 A space for everyone research and share about interesting technologies
+
+## How to submit your topic
+Please prepare your topic and submit before starting every new cycle
+
+The topic submission should follow this [Template](./topic-submission-template.md) to be able to describe your topic at its best
  
 ## How to submit PRs
 
