@@ -1,0 +1,3 @@
+[submodule "cli assistant/mimir"]
+	path = cli assistant/mimir
+	url = https://github.com/mkhoi1998/mimir
