@@ -1,3 +1,6 @@
 [submodule "cli assistant/mimir"]
 	path = cli assistant/mimir
 	url = https://github.com/mkhoi1998/mimir
+[submodule "three-audio-visualizer/Code/audio-visualizer"]
+	path = three-audio-visualizer/Code/audio-visualizer
+	url = https://github.com/ngolapnguyen/audio-visualizer
