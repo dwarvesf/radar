@@ -4,3 +4,6 @@
 [submodule "three-audio-visualizer/Code/audio-visualizer"]
 	path = three-audio-visualizer/Code/audio-visualizer
 	url = https://github.com/ngolapnguyen/audio-visualizer
+[submodule "xpc-service/Code/proxy-chunker"]
+	path = xpc-service/Code/proxy-chunker
+	url = https://github.com/phucledien/proxy-chunker
