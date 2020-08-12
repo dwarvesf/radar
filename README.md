@@ -24,27 +24,16 @@ topic
 │   rfc.md
 │   README.md
 └───src/
-│   │   README.md
-│   │   main.go
-│   │
-│   └───pkg
-│       │   google.go
-│       │   ...
-│
+│       README.md
+│       main.go
 └───docs/
-│    │   slide.md
-│    │   document.md
-│
 └───examples/
-     │   example1.md
-     │   example2.md
-     │   tutorial.mp4
 ```
 
 ## Resources
 
-- RFC template: https://github.com/dwarvesf/radar/_template_rfc.md
-- Topic template: https://github.com/dwarvesf/radar/_template_submission.md
+- RFC template: [radar/_template_rfc.md](_template_rfc.md)
+- Topic template: [radar/_template_submission.md](_template_submission.md)
 
 ## Contributing
 
