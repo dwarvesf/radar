@@ -1,23 +1,29 @@
-# TechRadar
+# Dwarves Tech Radar
 
-A space for everyone research and share about interesting technologies
+A place where the Dwarves note down their research and development pieces of technology.
 
-## How to submit your topic
-Please prepare your topic and submit before starting every new cycle
+## Submit your topic
 
-The topic submission should follow this [Template](./topic-submission-template.md) to be able to describe your topic at its best
+We start working a new volume every 2 months. Please prepare your topic and submit before starting every new cycle. The topic submission should follow the [submission template](_template_submission.md) to be able to describe your topic at its best.
  
-## How to submit PRs
+## Submit the output
 
-Pull this repo and add a directory that includes all your work.
+We named the output RFC, which stands for Request for Comments. It's a well-known collaboration practice among the programmers. We found it suitable in our case to conduct the tech radar.
+
+When you're done with your study, fork this repo and submit your work as a new Pull Request.
+
+RFC is required among the study. It's like the abstract when you do whitepaper. You can follow the [RFC template](_template_rfc.md) or use these as references:
+
+- https://github.com/apple/swift-evolution/tree/master/proposals
+- https://github.com/golang/proposal/tree/master/design
 
 Your directory should follow this structure:
 
 ```
-Topic Name
-│   RFC.md
-│
-└───Code
+topic
+│   rfc.md
+│   README.md
+└───src/
 │   │   README.md
 │   │   main.go
 │   │
@@ -25,22 +31,26 @@ Topic Name
 │       │   google.go
 │       │   ...
 │
-└───Documents/Slides
+└───docs/
 │    │   slide.md
 │    │   document.md
 │
-└───Examples/Tutorials
+└───examples/
      │   example1.md
      │   example2.md
      │   tutorial.mp4
 ```
 
-[How to write a RFC](./rfc.md)
+## Resources
 
-### Note: RFC is mandatory. You can follow above example or use these as references:
+- RFC template: https://github.com/dwarvesf/radar/_template_rfc.md
+- Topic template: https://github.com/dwarvesf/radar/_template_submission.md
 
-https://github.com/apple/swift-evolution/tree/master/proposals
+## Contributing
 
-https://github.com/golang/proposal/tree/master/design
+We love pull requests. If you have something you want to add or remove, please open a new pull request. Please leave all PRs open for at least a week to get feedback from everyone.
 
-Then create a PR named The Topic (ex: SwiftUI)
+## License
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+@ [Dwarves Foundation](https://d.foundation)
