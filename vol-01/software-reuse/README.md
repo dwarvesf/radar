@@ -1,14 +1,17 @@
 # Reuse in software development
 
 ## Abstract
+
 This document is a brief explanation for a software engineering strategy called **Software reuse**. It will bring you through a few aspects of reuse in software development such as concepts, benefits, problems, and approaches like a framework or product line.
 
 ## Status
+
 Keep Updating.
 
 ## Table of contents
+
 [1. Introduction](#1-introduction) <br>
-[2. Few aspects of Software reuse](#2-few-aspects-of-software-reuse)  <br>
+[2. Few aspects of Software reuse](#2-few-aspects-of-software-reuse) <br>
 &nbsp; &nbsp; [2.1 The benefits](#21-the-benefits) <br>
 &nbsp; &nbsp; [2.1 The problems](#22-the-problems) <br>
 &nbsp; &nbsp; [2.3 The reuse landscape](#23-the-reuse-landscape) <br>
@@ -16,31 +19,35 @@ Keep Updating.
 [4. Product line](#4-software-product-lines) <br>
 
 ### 1. Introduction
+
 In the previous century, when the software market was also **immature**, the economy was grown with a large scale lead to more and more new business problems appear that demands software to solve such as management, automatic. So a lot of new ideas about software were imagined and implement from the roots to resolve the corresponding matter. Because of this original, the reuse of software was uncommon.
 
 Nowadays, after a long time for deeping in building something new to solve classic problems. The seniors in this software development field have concluded an engineering strategy that is called **Software reuse** where the development process is geared to reuse existing software. The move to reuse-based development has been in response to demand for lower software production and maintenance costs, faster delivery of systems, and increased software quality. There are also matters that are needed to solve when the answer to classic problems was completed increasingly. So this strategy is now used extensively in the development of new business systems and the companies are promoting reuse of existing systems to increase their return on software investments.
 
 There are many kinds of field Software reuse that is being available. The Open-source movement is a representation of reuse where a lot of code that is reuse like libraries or a part of other systems.
 
-> Open-source: "Open source is a term that originally referred to open source software (OSS). Open-source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit." [[1](#1-%22what-is-open-source---red-hat%22-httpswwwredhatcomentopicsopen-sourcewhat-is-open-source)]
+> Open-source: "Open source is a term that originally referred to open source software (OSS). Open-source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit." [[1](#1-what-is-open-source---red-hat-httpswwwredhatcomentopicsopen-sourcewhat-is-open-source)]
 
-> Open-source movement: "The open-source movement is based on a radical retake on copyright law to create high-quality software whose use and development are guaranteed to the public." [[2](#2-%22pdf-the-open-source-movement-a-revolution-in-software-%22-httpswwwresearchgatenetpublication258507068theopensourcemovementarevolutioninsoftwaredevelopment)]
+> Open-source movement: "The open-source movement is based on a radical retake on copyright law to create high-quality software whose use and development are guaranteed to the public." [[2](#2-pdf-the-open-source-movement-a-revolution-in-software--httpswwwresearchgatenetpublication258507068_the_open_source_movement_a_revolution_in_software_development)]
 
 Another is the domain-specific application systems, such as ERP systems, are available that can be tailored and adapted to customer requirements. Some big companies have supplied the components that have the ability to be configured to demand each their specific customer.
 
- Standards, such as web service standards, have made it easier to develop software services and reuse them across a range of applications.
+Standards, such as web service standards, have made it easier to develop software services and reuse them across a range of applications.
 
- Reuse-based software engineering is an approach to development that tries to maximize the reuse of existing software. The software units that are reused may be of radically different sizes. For example:
-  - Component reuse: Component is a scalable concept, it can be big like a subsystem or small as a class, function, or object and have the ability to reuse flexibly.
-  - Application reuse: An application can be reused by integrating without change into a system or re-configured for a specific customer.
-  - System reuse: A system that contains a number of application can be a part of another bigger system.
+Reuse-based software engineering is an approach to development that tries to maximize the reuse of existing software. The software units that are reused may be of radically different sizes. For example:
+
+- Component reuse: Component is a scalable concept, it can be big like a subsystem or small as a class, function, or object and have the ability to reuse flexibly.
+- Application reuse: An application can be reused by integrating without change into a system or re-configured for a specific customer.
+- System reuse: A system that contains a number of application can be a part of another bigger system.
 
 Each function or component that includes generic functionality is potentially reusable. However, sometimes, it is very expensive to modify them for a new situation. So, rather than reuse code, the idea is also a good thing to reuse. This way is called concept reuse.
 
 In concept reuse, instead of component, you reuse ideas, working style, or algorithm. On the other hand, it means everything that is reused is represented in an abstract notation, which does not have an implementation detail. It can, therefore, be configured and adapted for a range of situations. A few methods that depend on concept reuse are design patterns, configurable system products, or program generator. The concept reuse process must contain an activity where the abstract concept is instantiated to create executable components.
 
 ### 2 Few aspects of Software reuse
+
 #### 2.1 The benefits
+
 The first thing that everyone thinks about the reuse, is the fast development speed when applying another existing component in our system. The reuse provides the ability to bring an application or system to the market as early as possible because both development and validation time may be reduced. It is very helpful when overall development cost is not more priority than delivery speed.
 
 To the specialists, instead of doing the same work over and over again, they often develop reusable software that encapsulates their knowledge. It is very convenient for development and sharing source code.
@@ -56,6 +63,7 @@ A special point that is not noted, is a lot of standards being used in each engi
 There is a lot of benefits when using Software reuse in development, but I think the above reasons are convincing enough for us to think about applying the reuse strategy in our software development process.
 
 Summary, basically, we have six benefits of Software reuse:
+
 - Accelerated development
 - Effective use of specialists
 - Increased dependability
@@ -64,6 +72,7 @@ Summary, basically, we have six benefits of Software reuse:
 - Standards compliance
 
 #### 2.2 The problems
+
 Besides a lot of benefits, every tool has its own matter, Software reuse is no exception.
 
 To the development team, it is a hard challenge to build a reusable component library that is favored by other software developers and ensure that the library is used. After building, maintaining this library is also a complex process that contains a few factors such as compatibility, comfortable, and easy to use.
@@ -79,6 +88,7 @@ Another bad stuff of reuse in software development is the lack of tool support. 
 The last one is called **“Not-invented-here” syndrome**, when you focus on cloning, rewriting, optimizing component with the belief that you will make it greater instead of trying to do another solution. This is partly to do with trust and partly to do with the fact that writing original software is seen as more challenging than reusing other people’s software.
 
 #### 2.3 The reuse landscape
+
 After time passed, the reuse in software development has been increasingly supported by a lot of new techniques. The base of these techniques is the fact that the system in the same application domain are similar and have the potential for reuse. There are many different ways of Software reuse, from simple components such as class, object to complete system, and that standards for reusable components facilitate reuse. You can see an overall picture of the “reuse landscape”—different ways of implementing software reuse below.
 
 <!-- <figure class="image">
@@ -87,7 +97,7 @@ After time passed, the reuse in software development has been increasingly suppo
 </figure> -->
 
 ![The reuse landscape](img/software_reuse_landscape.jpg "The reuse landscape")
-*The reuse landscape*[[3](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
+_The reuse landscape_[[3](#3-4-7-8-software-engineering-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 if you feel unclear and want to walk into details of each approach of Software reuse, you can see the following figure.
 
@@ -97,7 +107,7 @@ if you feel unclear and want to walk into details of each approach of Software r
 </figure> -->
 
 ![Approaches that support software reuse](img/reuse_approaches.jpg "Approaches that support software reuse")
-*Approaches that support software reuse*  [[4](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
+_Approaches that support software reuse_ [[4](#3-4-7-8-software-engineering-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 After having an overview of the reuse landscape, for sure, you will wonder “which is the most appropriate technique to use in a particular situation?”.
 
@@ -113,15 +123,16 @@ The answer to the above question depends on a lot of things such as system requi
 Above is a few stuff that building and groundwork for making a decision for the questions such as when we need Software reuse, or what is the best solution for our project. Where or not reuse is applied, is often decision by manager instead of engineer. Sometime, they evaluate the risks within their choice incorrectly. Others may prefer known risks of development to unknown risks of reuse. So i think if you want to perform a decision making, you must have all of your solution on the table, the more you understand your solutions the more accuracy your decisions are. In this context, this is reuse-related decision.
 
 ### 3 Application framework
+
 Before explore about Application framework, let's revise object-oriented development. Following is an difinition of OOD that i see on [Quora](https://www.quora.com/). I think this is really good sentence for mentioning to it
 
-> Object-oriented Development (OOD) a group of methodologies that sees real world entities as objects and classes. For example, hospital is a real world entity, becomes hospital class and later multiple hospital objects are created, each with unique property values. [[5](#5-%22what-is-oo-development---quora%22-1-mar-2019-httpswwwquoracomwhat-is-oo-development)]
+> Object-oriented Development (OOD) a group of methodologies that sees real world entities as objects and classes. For example, hospital is a real world entity, becomes hospital class and later multiple hospital objects are created, each with unique property values. [[5](#5-what-is-oo-development---quora-1-mar-2019-httpswwwquoracomwhat-is-oo-development)]
 
 For a long time, some enthusiasts for object-oriented development suggested that one of the key advantages when using an object-oriented approach is reusing previous work. That means you can use the same object for different systems. However, to me, in my work, when coding and developing a system, I see a truth is that we need specified objects or classes for a particular component or application. Another bad thing is that we often spent more time to understand and adapt the object than reimplement it.
 
 So, instead of using OOD directly, we have an object-oriented development process that is the best support for object-oriented reuse through larger-grain abstractions called frameworks.
 
-> Framework is an integrated set of software artifacts (such as classes, objects and components) that collaborate to provide a reusable architecture for a family of related applications.[[6](#6-%22leveraging-application-frameworks---acm-queue%22-31-aug-2004-httpsqueueacmorgdetailcfmid1017005)]
+> Framework is an integrated set of software artifacts (such as classes, objects and components) that collaborate to provide a reusable architecture for a family of related applications.[[6](#6-leveraging-application-frameworks---acm-queue-31-aug-2004-httpsqueueacmorgdetailcfmid1017005)]
 
 The first characteristic that is bounced off when I think about the framework is framework provides support for generic features of the domain that is focused on this framework. For example, in my primary programing language - [Golang](), it has a web framework being named [Echo]() - a high performance, extensible, minimalist web framework for Go. Besides a lot of salient features, it has generic features of a web framework such as routing, database integration, authentication, data rendering,... Another example is [Unity]() that is known as a game engine or game framework, it also has a lot of generic features that always exists on each game engine such as audio system, graphic, animation, UI widgets or hardware event handling... Depend on their features, tools, each engineer can comfortingly creative. For web engineers, this is extending APIs, integrating the third party, implementing new web services by using existing functions for method. For game developer, it also drags and drops UI object to defines game scene layouts or handle mouse event to make an NPC (non-player character) does few animations. More and more.
 
@@ -132,11 +143,13 @@ Another fact is a framework can contain others. It begins from common sense that
 Finally, we can consider a few class of framework.
 
 I saw a few types of framework in [Sommerville software engineering 10th edition](https://dinus.ac.id/repository/docs/ajar/Sommerville-Software-Engineering-10ed.pdf), see the following:
+
 - System infrastructure frameworks: tools for doing everything in infrastructures layer such as communications, user interfaces, and compilers.
 - Middleware integration frameworks: line of frameworks that support construct an ideal environment for an application works. For example, there are Microsoft’s .NET and Enterprise Java Beans (EJB). What is the ideal environment? This is a location that allows each component of your system to communicate with each other and with OS and exchange data easily.
 - Enterprise application frameworks: specified frameworks for the specified domains, such as telecommunications or financial systems. It doesn't only support the development, but also contains this domain's deep knowledge. This kind of framework is the key of the product line that is considered in the next section.
 
 To me, i prefer another way to classify frameworks that looks more specific and practical.
+
 - Web Application Framework
 - Application Framework
 - Multimedia Framework
@@ -158,7 +171,7 @@ As above, we can understand that is the application when a company wants to serv
 Generally, product line derives from an exist application that is called base application of product line. Base application is usually designed to simplify reuse and reconfigura- tion. Generally, a base application includes three kinds of component as following image:
 
 ![The reuse landscape](img/reuse_base_app.jpg "The organization of a base system for a product line")
-*The organization of a base system for a product line*[[7](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
+_The organization of a base system for a product line_[[7](#3-4-7-8-software-engineering-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 - Core components that provide infrastructure support. These are often immutable when developing other instances of the product line.
 
@@ -186,8 +199,7 @@ Besides, depending on these component's type, we have various types of specializ
 So how to expand the product line into a specific application? Let's see the following diagram to figure out the overall picture of this process.
 
 ![The reuse landscape](img/product-line-process.png "Product instance development")
-*Product instance development*[[8](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
-
+_Product instance development_[[8](#3-4-7-8-software-engineering-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 The application of the product line has the ability to configure. This configuration can occur in different states in the development processes such as design-time or deployment time. In design time, this is easy to change something, so you can add, remove, or modify any features to generate a new application. To deployment time, because your application is running, change something can lead to interrupt application process. So, it is often that the user is provided a tool to embed new config into the application to satisfy the specific case.
 
@@ -204,7 +216,11 @@ Extending or modifying an existing application in specific requirements for func
 ## References
 
 ##### [1] "What is open source? - Red Hat." https://www.redhat.com/en/topics/open-source/what-is-open-source.
+
 ##### [2] "(PDF) The open source movement: A revolution in software ...." https://www.researchgate.net/publication/258507068_The_open_source_movement_A_revolution_in_software_development.
-##### [3], [4], [7], [8]  "Software Engineering." https://dinus.ac.id/repository/docs/ajar/Sommerville-Software-Engineering-10ed.pdf.
+
+##### [3], [4], [7], [8] "Software Engineering." https://dinus.ac.id/repository/docs/ajar/Sommerville-Software-Engineering-10ed.pdf.
+
 ##### [5] "What is OO Development? - Quora." 1 Mar. 2019, https://www.quora.com/What-is-OO-Development.
-##### [6]  "Leveraging Application Frameworks - ACM Queue." 31 Aug. 2004, https://queue.acm.org/detail.cfm?id=1017005.
+
+##### [6] "Leveraging Application Frameworks - ACM Queue." 31 Aug. 2004, https://queue.acm.org/detail.cfm?id=1017005.
