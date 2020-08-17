@@ -3,30 +3,17 @@
 ## Abstract
 This document describes the fundamental theory of blockchain security and provides knowledge to answer a few questions such as **What makes a blockchain system secure ?**, **How is the consensus mechanism implemented ?**, **The role of cryptography in blockchain security**. It also tries to help the reader visualize the way that the blockchain-based system makes to get security.
 
-## Status of this Memo
-Updating
-
 ## Table of Contents
 [1. Introduction](#1-introduction)
-
 [2. How does blockchain works](#2-how-does-blockchain-works)
-
 [3. What makes a blockchain system secure](#3-what-makes-a-blockchain-system-secure)
-
 [3a. The most important features](#3a-the-most-important-features)
-
 [3b. Cryptography in blockchain security](#3b-cryptography-in-blockchain-security)
-
 [3b.1 Cryptography techniques](#3b1-cryptography-techniques)
-
 [3b.2 Application of cryptography in blockchain](#3b2-application-of-cryptography-in-blockchain)
-
 [4. Security in popular blockchain consensus protocols](#4-security-in-popular-blockchain-consensus-protocols)
-
 [4a. Proof of Work](#4a-proof-of-work)
-
 [4b. Proof of Stake](#4b-proof-of-stake)
-
 [5. Summary](#5-summary)
 
 ---
@@ -137,8 +124,6 @@ From the above properties, there are three popular types of cryptography:
 
     ![Symmetric-key Cryptography](./img/blockchain/symmetric-key.png)
 
-
-
 - Public-Key Cryptography
     > There are two key in this algorithm: public key is freely distributed and use for encrypting infomation, in the other hand, private key is secret and using for decrypting cipher to readable infomation.
 
@@ -179,7 +164,6 @@ In the Bitcoin, a few transactions occurred on the network is packed in a block.
 Specific example with Bitcoin mechanism
 
 ![PoW](./img/blockchain/pow.png)
-
 
 Let's assume a rule in a mining round like following: Miner needs finding a random nonce so that combines it with block's data and previous block's hash together and pass through hash function SHA-256, required result is a hash string starting with 4 zeros. E.x: `0000ankhsdqk12KLwkqLKWK...`.
 

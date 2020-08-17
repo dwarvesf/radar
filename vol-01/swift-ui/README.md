@@ -25,7 +25,7 @@ Yes, the core of your app remains unchanged: your models, your networking, and m
 
 ## Layout Process
 
-<img src="misc/case-01-layout.png" alt="drawing" width="300"/>
+<img src="img/case-01-layout.png" alt="drawing" width="300"/>
 
 1. Parent Proposes Size for Child
 First, the root view offers the text a proposed size – in this case, the entire safe area of the screen, represeted by an orange rectangle.
@@ -45,7 +45,7 @@ Let’s take a 60x60 image and display it using SwiftUI’s Image. Look what hap
 
 
 ## Stacks
-<img src="misc/stack.jpg" alt="drawing" width="500"/>
+<img src="img/stack.jpg" alt="drawing" width="500"/>
 
 
 When creating a SwiftUI view, you describe its content in the view’s body property. However, the body property only returns a single view. You can combine3 and embed multiple views in stacks4.
@@ -464,7 +464,7 @@ HStack {
 
 See the padding here? No? But look at the picture!
 
-<img src="misc/default.png" alt="drawing" width="500"/>
+<img src="img/default.png" alt="drawing" width="500"/>
 
 
 # References

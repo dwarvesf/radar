@@ -20,13 +20,13 @@
 
 ### Threaded Interrupts:
 - CPU receives several interrupts from IO devices throughout one or more interrupt lines (bus. The normal OS handles the whole interrupt, Real-Time Design OS receives the interrupt and schedule the interrupt to run later.
-![RealTimeInterrupt](images/realtime.png)
+![RealTimeInterrupt](img/realtime.png)
 - User tasks can run a higher priority than interrupts. Set required interrupts higher that your task
 
 ### Priority inversion:
 When something runs when something else should be
 
-![priority-inheritance](images/priority-inheritance.png)
+![priority-inheritance](img/priority-inheritance.png)
 
 - This is the example of using Priority inheritance to fix the error when a task with priority three never run because the priority 2 task is higher, priority 3 task became preempted forever.
 - Instead, the priority 3 task after priority 1 task complete, it's inherited the priority 1 and run before priority 2

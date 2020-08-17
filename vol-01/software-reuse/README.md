@@ -82,21 +82,21 @@ The last one is called **“Not-invented-here” syndrome**, when you focus on c
 After time passed, the reuse in software development has been increasingly supported by a lot of new techniques. The base of these techniques is the fact that the system in the same application domain are similar and have the potential for reuse. There are many different ways of Software reuse, from simple components such as class, object to complete system, and that standards for reusable components facilitate reuse. You can see an overall picture of the “reuse landscape”—different ways of implementing software reuse below.
 
 <!-- <figure class="image">
-  <img src="./Material/Images/software_reuse_landscape.jpg" alt="software reuse landscape">
+  <img src="img/software_reuse_landscape.jpg" alt="software reuse landscape">
   <figcaption style="text-align: center">The reuse landscape</figcaption>
 </figure> -->
 
-![The reuse landscape](./Material/Images/software_reuse_landscape.jpg "The reuse landscape")
+![The reuse landscape](img/software_reuse_landscape.jpg "The reuse landscape")
 *The reuse landscape*[[3](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 if you feel unclear and want to walk into details of each approach of Software reuse, you can see the following figure.
 
 <!-- <figure class="image">
-  <img src="./Material/Images/reuse_approaches.jpg" alt="software reuse landscape">
+  <img src="img/reuse_approaches.jpg" alt="software reuse landscape">
   <figcaption style="text-align: center">Approaches that support software reuse</figcaption>
 </figure> -->
 
-![Approaches that support software reuse](./Material/Images/reuse_approaches.jpg "Approaches that support software reuse")
+![Approaches that support software reuse](img/reuse_approaches.jpg "Approaches that support software reuse")
 *Approaches that support software reuse*  [[4](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 After having an overview of the reuse landscape, for sure, you will wonder “which is the most appropriate technique to use in a particular situation?”.
@@ -157,7 +157,7 @@ As above, we can understand that is the application when a company wants to serv
 
 Generally, product line derives from an exist application that is called base application of product line. Base application is usually designed to simplify reuse and reconfigura- tion. Generally, a base application includes three kinds of component as following image:
 
-![The reuse landscape](./Material/Images/reuse_base_app.jpg "The organization of a base system for a product line")
+![The reuse landscape](img/reuse_base_app.jpg "The organization of a base system for a product line")
 *The organization of a base system for a product line*[[7](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 - Core components that provide infrastructure support. These are often immutable when developing other instances of the product line.
@@ -185,7 +185,7 @@ Besides, depending on these component's type, we have various types of specializ
 
 So how to expand the product line into a specific application? Let's see the following diagram to figure out the overall picture of this process.
 
-![The reuse landscape](./Material/Images/product-line-process.png "Product instance development")
+![The reuse landscape](img/product-line-process.png "Product instance development")
 *Product instance development*[[8](#3-4-7-8-%22software-engineering%22-httpsdinusacidrepositorydocsajarsommerville-software-engineering-10edpdf)]
 
 
