@@ -24,8 +24,3 @@ There are many benifit when using a background process, such as XPC service.
 - More reliable app
 - Make the app more secure
 
-## Code & Documents/Slides
-
-- [Code](/Code)
-- [Documents/Slides](/Documents)
-
