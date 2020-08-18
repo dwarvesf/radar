@@ -10,7 +10,7 @@ AARRR funnel contains 5 stages: Acquisition, Activation, Retention, Referral, an
 
 These 5 stages often change order, depends on what we want to attain. Sometimes you might want visitors first before turning them into your users and bring them your unique values. Sometimes you just want them to keep using your product as long as possible.
 
-![](/vol-01/aarrr/img/AArrr_funnel.jpg)
+![](img/AArrr_funnel.jpg)
 
 As we can see the above image which is the AARRR ecosystem. Based on our assumption about Problem - Solution, we (and input from the Business owner) will decide the order of 5 stages and what need to do at each stage to drive the User into the funnel. We could know which metrics of each stage and which ones need to be focused first in a matter of time.
 
@@ -38,7 +38,7 @@ Keep in mind the current product stages and its goal then optimize the metrics.
 
 This could save you a lot of money.
 
-![](/vol-01/aarrr/img/conversion_funnel.jpg)
+![](img/conversion_funnel.jpg)
 
 ## Conclusion
 
