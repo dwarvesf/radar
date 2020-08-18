@@ -21,9 +21,11 @@ Figure out which metrics are truly important, and focus on those. Keep in mind t
 As soon as possible. Before any project, we spend 2-3 sessions with our clients to gather information and decide on a product strategy. Build based on data and evidence, if we want to build something that lasts for a long time. Our software development cycle starts with the Lean Business Model (aka Lean Canvas) and AARRR. While Business Model lets us know about the business goals and requirements (“What are the current problems? What are we gonna build? Who are the customers and how we could earn money?”), AARRR tells us what to do to get there and if we’re getting there (metrics).
 
 > “Do all the stages stay the same through all stages of a product?”
+>
 > **OBVIOUSLY NO.** We keep talking about lean startup so we have to review this funnel frequently to make sure we’re going on the right track and maximize the profit/revenues at each product stage.
 
 > “If it changes, when do we consider changing it”
+>
 > **When we’re facing a decision-making moment.**
 
 For a specific case, we have been going with one client for a while, the product roadmap used to be pretty solid and well-defined at the beginning. We plan for a whole year, we aim for a new digital platform that could boost the business, and then the pandemic takes in place.
