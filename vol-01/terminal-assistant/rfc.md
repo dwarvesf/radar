@@ -6,7 +6,7 @@
 | **Type** | Tool                                          |
 
 ## Objective
-A CLI assistant that should provide some knowledge about code or development process when you ask, should you suddenly forget and don't want to switch to browser and Google it.
+Terminal Assistant is CLI tool that should provide some knowledge about code or development process when you ask, should you suddenly forget and don't want to switch to browser and Google it.
 
 ## Motivation
 I try to get my hand dirty to build up a tool alone, applying the techniques and process I have learned. The development of this tool provided me some valuable experiences about software processes, code optimization and heuristic approach.
