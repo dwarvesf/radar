@@ -1,45 +1,36 @@
-# Dwarves Tech Radar
-A place where the Dwarves note down their research and development pieces of technology.
+---
+title: Tech radar index
+date: 2023-11-15
+description: A collection of technologies we're evaluating and using across our projects
+authors:
+  - duy
+  - thanh
+tags:
+  - radar
+---
 
-## Perspective
-New technology needs to provide actual value over existing solutions. Software is changing the world every day. Software moves fast. The technology you used yesterday may be deprecated today. New technology has enabled us to create new things.
+## Tech radar overview
 
-The world is running by the good will of people who try to make it a better place. With the existing set of problems, new solutions will come out along with new technologies. When we look at new tech, we think about the movement of the market & society on which the new tech could fit in. The main idea is to see if the new tech could help to make anything better than before in the long run and also serve our development direction.
+This folder contains our tech index - a comprehensive collection of technologies, tools, platforms, languages, frameworks, and techniques that we are actively using or evaluating. Each technology is categorized and assessed according to our adoption stages.
 
-## Submit your topic
-We start working on a new volume every 2 months. If you are still experimenting the previous cycle, just keep it going. Otherwise you can prepare your topic and submit before starting every new cycle. The topic submission should follow the [submission template](_template_submission.md) to be able to describe your topic at its best.
- 
-## Submit the output
-When you're done with your study and assessment, please submit an [RFC](https://en.wikipedia.org/wiki/Request_for_Comments). It's a well-known collaboration practice among the programmers. We found it suitable in our case to conduct the tech radar. The engineering team will help review and decide which ring it should be.
+For a detailed explanation of how our tech radar works, please refer to the [Tech Radar handbook page](https://github.com/dwarvesf/handbook/blob/master/community/radar.md).
 
-You can follow the [RFC template](_template_rfc.md) or use these as references:
+## Part of our second brain
 
-- https://github.com/apple/swift-evolution/tree/master/proposals
-- https://github.com/golang/proposal/tree/master/design
+The tech radar is an important component of our [knowledge base](https://github.com/dwarvesf/handbook/blob/master/knowledge-base.md) - our team's shared second brain. By documenting and categorizing technologies we use or evaluate, we create a valuable resource that helps us:
 
-Your directory should follow this structure:
+- Make informed technology decisions
+- Avoid duplicating research efforts
+- Share technical insights across teams
+- Track our technology evolution over time
 
-```
-topic
-│   rfc.md
-│   README.md
-└───src/
-│       README.md
-│       main.go
-└───docs/
-└───examples/
-```
+## Making decisions
 
-## Resources
+Following our 3x2 framework, technology decisions consider:
 
-- RFC template: [radar/_template_rfc.md](_template_rfc.md)
-- Topic template: [radar/_template_submission.md](_template_submission.md)
+- People x Customer x Number
+- Now x Then
 
-## Contributing
+Being able to make decisions on technology adoption trains us to accept responsibility with an open mind. We encourage team members to participate in the evaluation process and contribute their expertise and experiences.
 
-We love pull requests. If you have something you want to add or remove, please open a new pull request. Please leave all PRs open for at least a week to get feedback from everyone.
-
-## License
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-@ [Dwarves Foundation](https://d.foundation)
+For the complete and interactive visualization of our tech radar, visit our [Tech Radar Board](https://radar.d.foundation/).
