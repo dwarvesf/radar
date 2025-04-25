@@ -39,7 +39,7 @@ From a business standpoint:
 ### How should we adopt it
 
 - Research blog posts for a better understanding of the concepts and principles behind, and also help to educate others in the team
-- Case studies into existing projects that already applied this (e.g. Droppii, Mudah, Podtown)
+- Case studies into existing projects that already applied this
 - Boiler-plate with Turborepo + other popular stacks that we are using (e.g. NextJS, TailwindCSS) - See this: [dwarvesf/monorepo-boilerplate (github.com)](https://github.com/dwarvesf/monorepo-boilerplate) - Might need update though
 
 <!-- child_database 943e2681-15e3-4e3f-90f1-fa022646b587 -->

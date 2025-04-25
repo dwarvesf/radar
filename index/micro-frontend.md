@@ -44,7 +44,7 @@ We can apply it to:
 ### How should we adopt it
 
 - Research blog posts for a better understanding of the concepts and principles behind the architecture, and also help to educate others in the team
-- Case studies into existing projects that already applied this (e.g. Setel, Mudah)
+- Case studies into existing projects that already applied this
 - Set-up a small proof of concept with popular stack for Micro FE (e.g. Webpack Module Federation)
 
 <!-- child_database e05d3247-0cbe-413b-a43a-3dc4b9bc8c96 -->
