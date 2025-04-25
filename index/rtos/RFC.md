@@ -1,9 +1,9 @@
 # Real-Time OS Design
 
-| Status        | Trial                                                |
-| :------------ | :-------------------------------------------------------------------------------------------- |
-| **Author(s)** | Vo Minh Khiem (<vominhkhiem212@gmail.com>)                                          |
-| **Type** | Technique                                          |
+| Status        | Trial                                      |
+| :------------ | :----------------------------------------- |
+| **Author(s)** | Vo Minh Khiem (<vominhkhiem212@gmail.com>) |
+| **Type**      | Technique                                  |
 
 ## Objective
 

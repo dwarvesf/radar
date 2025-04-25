@@ -24,13 +24,13 @@ Zod is designed to be as developer-friendly as possible. The goal is to eliminat
 
 Some other great aspects:
 
-* Zero dependencies
-* Works in Node.js and all modern browsers
-* Tiny: 8kb minified + zipped
-* Immutable: methods (e.g. `.optional()`) return a new instance
-* Concise, chainable interface
-* Functional approach: **[parse, don't validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)**
-* Works with plain JavaScript too! You don't need to use TypeScript.
+- Zero dependencies
+- Works in Node.js and all modern browsers
+- Tiny: 8kb minified + zipped
+- Immutable: methods (e.g. `.optional()`) return a new instance
+- Concise, chainable interface
+- Functional approach: **[parse, don't validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)**
+- Works with plain JavaScript too! You don't need to use TypeScript.
 
 ### What can we do with it
 

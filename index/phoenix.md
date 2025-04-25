@@ -45,9 +45,9 @@ Overall, Phoenix provides a robust and flexible platform for building modern web
 
 ### How should we adopt it
 
-* Learn Elixir
-* Learn Phoenix
-* Make a simple API service
-* Deploy to k8s
+- Learn Elixir
+- Learn Phoenix
+- Make a simple API service
+- Deploy to k8s
 
 <!-- child_database cb46b3d7-c77c-435b-b4ac-74671db56cde -->

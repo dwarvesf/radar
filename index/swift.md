@@ -11,4 +11,3 @@ status: Adopt
 quadrant: Languages
 tag: iOS
 ---
-

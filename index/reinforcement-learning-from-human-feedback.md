@@ -20,17 +20,17 @@ Reinforcement Learning from Human Feedback (RLHF) is a technology that combines 
 
 ### What’s better about this method or library
 
-* **Technical Creativity**: RLHF represents a creative approach that enhances the capabilities of NLP models by incorporating human feedback, which is often more intuitive and context-aware.
-* **Customization**: By using human feedback, RLHF allows for the customization of the model's responses, making them more aligned with human expectations and social norms.
-* **Combination of Techniques**: RLHF combines reinforcement learning with supervised fine-tuning, which empirically gives the best performance.
-* **Addressing Challenges**: RLHF addresses the challenges of training language models with indiscriminate data by refining them with higher quality data and human feedback.
+- **Technical Creativity**: RLHF represents a creative approach that enhances the capabilities of NLP models by incorporating human feedback, which is often more intuitive and context-aware.
+- **Customization**: By using human feedback, RLHF allows for the customization of the model's responses, making them more aligned with human expectations and social norms.
+- **Combination of Techniques**: RLHF combines reinforcement learning with supervised fine-tuning, which empirically gives the best performance.
+- **Addressing Challenges**: RLHF addresses the challenges of training language models with indiscriminate data by refining them with higher quality data and human feedback.
 
 ### What can we do with it
 
-* **Improve Chatbots**: RLHF can be used to improve the responses of chatbots, making them more contextually appropriate and socially acceptable.
-* **Customize AI Responses**: It allows for the customization of AI responses based on specific criteria or guidelines provided through human feedback.
-* **Enhance NLP Models**: RLHF can be used to enhance various NLP models, making them more efficient in tasks like translation, summarization, and conversation.
-* **AI Safety**: By incorporating human preferences, RLHF can be used to build safer AI systems that are aligned with human values and goals.
+- **Improve Chatbots**: RLHF can be used to improve the responses of chatbots, making them more contextually appropriate and socially acceptable.
+- **Customize AI Responses**: It allows for the customization of AI responses based on specific criteria or guidelines provided through human feedback.
+- **Enhance NLP Models**: RLHF can be used to enhance various NLP models, making them more efficient in tasks like translation, summarization, and conversation.
+- **AI Safety**: By incorporating human preferences, RLHF can be used to build safer AI systems that are aligned with human values and goals.
 
 ### How should we adopt it
 

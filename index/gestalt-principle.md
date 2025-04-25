@@ -20,8 +20,8 @@ There are six individual principles commonly associated with gestalt theory: **
 
 ## Output Goal
 
-* Apply Gestalt principles to our designs to standardize our design compliance based on theories of visual perception
+- Apply Gestalt principles to our designs to standardize our design compliance based on theories of visual perception
 
 ## Timeline
 
-* (2020-01-01) - **[Trial]** (Tom) Added description and basic output.
+- (2020-01-01) - **[Trial]** (Tom) Added description and basic output.

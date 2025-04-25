@@ -11,4 +11,3 @@ status: Adopt
 quadrant: Platforms
 tag: Database
 ---
-

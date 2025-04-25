@@ -28,11 +28,11 @@ Another benefit of Swagger is its flexibility. It supports a wide range of progr
 
 Swagger can be used to improve both the development process and the business outcomes of RESTful web services. Here are a few examples:
 
-* Streamline API development: Swagger simplifies the process of defining and documenting APIs, which can help developers create high-quality APIs more quickly and efficiently.
-* Improve API documentation: With Swagger, developers can create comprehensive, machine-readable API documentation that can be easily understood and consumed by other developers.
-* Facilitate collaboration: By providing a standardized format for API documentation, Swagger can help developers collaborate more effectively and share knowledge about their APIs.
-* Improve API quality: With its support for testing and validation, Swagger can help developers ensure that their APIs are consistent, reliable, and high-quality.
-* Enhance API adoption: By providing comprehensive documentation and testing tools, Swagger can help organizations promote their APIs and encourage adoption among developers and partners.
+- Streamline API development: Swagger simplifies the process of defining and documenting APIs, which can help developers create high-quality APIs more quickly and efficiently.
+- Improve API documentation: With Swagger, developers can create comprehensive, machine-readable API documentation that can be easily understood and consumed by other developers.
+- Facilitate collaboration: By providing a standardized format for API documentation, Swagger can help developers collaborate more effectively and share knowledge about their APIs.
+- Improve API quality: With its support for testing and validation, Swagger can help developers ensure that their APIs are consistent, reliable, and high-quality.
+- Enhance API adoption: By providing comprehensive documentation and testing tools, Swagger can help organizations promote their APIs and encourage adoption among developers and partners.
 
 ### How should we adopt it
 

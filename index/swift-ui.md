@@ -18,4 +18,4 @@ Apple has taken a big step forward with their new SwiftUI framework for implemen
 
 ## Timeline
 
-* (2019-01-01) - **[Trial]** (Tom) Added description and basic output.
+- (2019-01-01) - **[Trial]** (Tom) Added description and basic output.

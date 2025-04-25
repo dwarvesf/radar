@@ -24,8 +24,8 @@ With prompt engineering, we can enhance the capabilities of AI chatbots, making 
 
 ### How should we adopt it
 
-* Start by providing training sessions for your AI development and management teams to understand the nuances of prompt engineering.
-* Encourage a culture of learning and creativity, as this role requires a diverse skill set, not strictly limited to technical abilities.
-* Gradually incorporate prompt engineering in your AI systems, starting with non-critical applications, to observe and learn from the outcomes.
+- Start by providing training sessions for your AI development and management teams to understand the nuances of prompt engineering.
+- Encourage a culture of learning and creativity, as this role requires a diverse skill set, not strictly limited to technical abilities.
+- Gradually incorporate prompt engineering in your AI systems, starting with non-critical applications, to observe and learn from the outcomes.
 
 <!-- child_database d95fb340-6424-4a54-9582-327878745d03 -->

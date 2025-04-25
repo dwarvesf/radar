@@ -24,9 +24,9 @@ K9S provides a user-friendly interface that makes it easy to manage your Kuberne
 
 ### What can we do with it
 
-* Easy navigation: K9S provides a graphical representation of Kubernetes resources, making it easier for developers to navigate and manage their deployments, services, and other resources.
-* Improved reliability: With real-time updates and easy navigation, K9S can help development teams identify and resolve issues faster, improving the reliability of applications and services.
-* Better resource utilization: K9S provides insights into resource usage, allowing organizations to optimize resource utilization and reduce costs.
+- Easy navigation: K9S provides a graphical representation of Kubernetes resources, making it easier for developers to navigate and manage their deployments, services, and other resources.
+- Improved reliability: With real-time updates and easy navigation, K9S can help development teams identify and resolve issues faster, improving the reliability of applications and services.
+- Better resource utilization: K9S provides insights into resource usage, allowing organizations to optimize resource utilization and reduce costs.
 
 ### How should we adopt it
 

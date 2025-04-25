@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Frontend
 title: Zustand
 date: null
@@ -20,10 +20,10 @@ A small, fast and scalable bearbones state-management solution using simplified 
 
 ### What’s better about this method or library
 
-* It’s one of the smallest state management library.
-* It’s 100 percent unopinionated.
-* It’s not only for React. For example, we can combine the state of different applications no matter what framework they use (micro frontends).
-* It can deal with common pitfalls, like the dreaded zombie child problem, react concurrency, and context loss.
+- It’s one of the smallest state management library.
+- It’s 100 percent unopinionated.
+- It’s not only for React. For example, we can combine the state of different applications no matter what framework they use (micro frontends).
+- It can deal with common pitfalls, like the dreaded zombie child problem, react concurrency, and context loss.
 
 ### What can we do with it
 

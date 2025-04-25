@@ -20,8 +20,8 @@ Radix UI is a modular and accessible library of pre-built components and utiliti
 
 ### What’s better about this method or library
 
-* One of the benefits of Radix UI is that it works well with other libraries like TailwindCSS. Developers can use TailwindCSS to style Radix UI components and create a consistent look and feel across their application. Additionally, TailwindCSS makes it easy to create custom styles for Radix UI components, allowing developers to create unique user interfaces.
-* Another benefit of Radix UI is its modular design. Rather than relying on monolithic components, Radix UI provides a collection of small, focused primitives that developers can combine and customize to build the exact components they need. This approach makes it easy to build highly flexible and reusable UIs.
+- One of the benefits of Radix UI is that it works well with other libraries like TailwindCSS. Developers can use TailwindCSS to style Radix UI components and create a consistent look and feel across their application. Additionally, TailwindCSS makes it easy to create custom styles for Radix UI components, allowing developers to create unique user interfaces.
+- Another benefit of Radix UI is its modular design. Rather than relying on monolithic components, Radix UI provides a collection of small, focused primitives that developers can combine and customize to build the exact components they need. This approach makes it easy to build highly flexible and reusable UIs.
 
 ### What can we do with it
 

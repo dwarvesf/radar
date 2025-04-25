@@ -25,4 +25,5 @@ One of the biggest advantages of Netlify is that it provides a highly automated 
 ### What can we do with it
 
 ### How should we adopt it
+
 <!-- child_database 0d80f402-9776-435a-8490-c4430b966aaf -->

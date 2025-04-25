@@ -4,7 +4,7 @@ date: 2023-11-15
 description: A collection of technologies we're evaluating and using across our projects
 authors:
   - duynglam
-  - thanh
+  - zlatanpham
 tags:
   - radar
 ---

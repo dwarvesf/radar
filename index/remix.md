@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Frontend
 title: Remix
 date: null

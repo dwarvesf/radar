@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
 title: Langchain
 date: 2023-04-29
-description: 
-authors: 
+description:
+authors:
 confidence: Moderate
 assign: Thanh Pham
-priority: 
+priority:
 status: Assess
 quadrant: Frameworks
 ---

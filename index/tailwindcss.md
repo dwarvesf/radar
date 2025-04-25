@@ -27,4 +27,5 @@ TailwindCSS is different from traditional CSS frameworks like Bootstrap or Found
 TailwindCSS can be used to design and style responsive, modern web interfaces quickly and efficiently. Its utility classes can be used to define styles for typography, colors, layout, positioning, and more, and can be easily customized and extended. It can also be used in conjunction with other front-end tools and libraries like React or Vue.js.
 
 ### How we adopted it
+
 <!-- child_database 199b56b8-7133-4591-924b-a6473b88ea31 -->
