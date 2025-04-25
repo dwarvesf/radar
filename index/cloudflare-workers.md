@@ -18,8 +18,8 @@ Cloudflare Workers is a platform to deploy serverless code and static assets tha
 
 ## Output Goal
 
-* Use the platform in lieu of other serverless platforms
+- Use the platform in lieu of other serverless platforms
 
 ## Timeline
 
-* (2022-08-25) - **[Hold]** (Tom) Added description and basic output.
+- (2022-08-25) - **[Hold]** (Tom) Added description and basic output.

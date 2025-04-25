@@ -28,4 +28,5 @@ Another advantage of Apache Spark is its support for multiple programming langua
 Apache Spark can be used for a variety of big data use cases, including data processing, machine learning, graph processing, and streaming data. With its ability to process large datasets in parallel across many computers, it can significantly improve the speed of data processing.
 
 ### How should we adopt it
+
 <!-- child_database 1e132f52-6b83-4be4-bd63-a374aaf91c3e -->

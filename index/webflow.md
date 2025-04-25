@@ -18,4 +18,4 @@ At some point, we figure the development phase might take more time and resource
 
 ## Timeline
 
-* (2021-01-01) Trial
+- (2021-01-01) Trial

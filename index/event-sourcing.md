@@ -26,10 +26,10 @@ Event sourcing also enables businesses to implement the CQRS pattern, which sepa
 
 Event sourcing has several benefits for composition of entity states and data collection. Any business event can be converted into a data record. A collection of those data records, as well as the guarantee that replaying those data records in order will recreate business entities or states, gives the business a durability guarantee for their data. Other benefits includes, but is not limited to:
 
-* Loosely coupled business entities that exchange events make it easier to migrate from a monolithic architecture to microservices.
-* Event-sourced systems are easy to test and debug, as commands and events can be simulated for testing purposes, and the event log provides a good record for debugging.
-* Event sourcing gives you a complete, consistent model of the slice of the world modeled by your software, which is attractive for auditing purposes.
-* Observability is one of the most significant advantages of event sourcing. Each action in the system triggers an event, which gathers business intelligence and provides insight into how users interact with your application[4].
+- Loosely coupled business entities that exchange events make it easier to migrate from a monolithic architecture to microservices.
+- Event-sourced systems are easy to test and debug, as commands and events can be simulated for testing purposes, and the event log provides a good record for debugging.
+- Event sourcing gives you a complete, consistent model of the slice of the world modeled by your software, which is attractive for auditing purposes.
+- Observability is one of the most significant advantages of event sourcing. Each action in the system triggers an event, which gathers business intelligence and provides insight into how users interact with your application[4].
 
 ### What can we do with it
 

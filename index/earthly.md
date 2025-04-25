@@ -18,4 +18,4 @@ A repeatable syntax builds to untangle the debugging process between the local e
 
 ## Timeline
 
-* (2021-01-01) Trial
+- (2021-01-01) Trial

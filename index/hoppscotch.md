@@ -27,4 +27,5 @@ Hoppscotch is an open-source project with a user-friendly interface that allows 
 With Hoppscotch, developers can easily create and test APIs, collaborate with other developers, and improve the efficiency of their API development process. Developers can also share their APIs with others, allowing them to collaborate and test the APIs. Hoppscotch also provides detailed documentation for each API, making it easier for developers to understand and work with the API.
 
 ### How should we adopt it
+
 <!-- child_database 70b3a509-804f-4801-9cb5-be6178f78f6f -->

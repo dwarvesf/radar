@@ -23,4 +23,5 @@ HeadlessUI is a set of fully accessible and customizable UI components, built us
 ### What can we do with it
 
 ### How should we adopt it
+
 <!-- child_database f4a440ec-5a6b-4ec8-b42a-acd488b82a61 -->

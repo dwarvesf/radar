@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Frontend
 title: Jotai
 date: null

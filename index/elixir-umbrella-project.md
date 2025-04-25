@@ -40,6 +40,6 @@ Elixir micro-service and mono repo
 
 ### How should we adopt it
 
-* We can migrate the big Elixir phoenix project to an umbrella project by Mix tool and then split it into multiple services as our scope
+- We can migrate the big Elixir phoenix project to an umbrella project by Mix tool and then split it into multiple services as our scope
 
 <!-- child_database 640fefdb-5832-48e5-bc70-f3470960021c -->

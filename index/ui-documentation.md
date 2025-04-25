@@ -27,4 +27,5 @@ One of the biggest advantages of using tools like [Storybook](https://storybook.
 These tools can be used either independently in the development of a component library or design system, or integrated into a web application project. Several teams have reported a reduction in their user interface feedback cycles and improved timing of UI work as a result of using these tools in preparation for development work.
 
 ### How we adopted it
+
 <!-- child_database dd72a14c-8d8c-41a3-aa55-6e89ccd6ddfb -->

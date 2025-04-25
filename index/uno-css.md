@@ -20,16 +20,16 @@ UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed wi
 
 ### What’s better about this method or library
 
-* On-demand CSS engine (similar to Tailwind JIT)
-* Easy setup & usage: While fully customizable, UnoCSS ships with default presets that cover some popular utilities-first frameworks (Tailwind, Boostrap, etc.)
-* Useful features:
-* Attributify
-* Pure CSS icons
-* Variant grouping
-* …
-* Improved performance through multiple optimization:
-* No Parsing, No Abstract Syntax Tree (AST)
-* Single pass - No pre-scanning or file io
+- On-demand CSS engine (similar to Tailwind JIT)
+- Easy setup & usage: While fully customizable, UnoCSS ships with default presets that cover some popular utilities-first frameworks (Tailwind, Boostrap, etc.)
+- Useful features:
+- Attributify
+- Pure CSS icons
+- Variant grouping
+- …
+- Improved performance through multiple optimization:
+- No Parsing, No Abstract Syntax Tree (AST)
+- Single pass - No pre-scanning or file io
 
 ### What can we do with it
 

@@ -18,4 +18,4 @@ It is a new adopted practices in DF, the practice define the way to conventional
 
 ## Timeline
 
-* (2020-01-01) Adopted?
+- (2020-01-01) Adopted?

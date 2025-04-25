@@ -29,4 +29,5 @@ Additionally, ViteJS provides a range of powerful features and integrations, inc
 ViteJS can be used to develop a wide range of modern web applications, including single-page applications, progressive web apps, and static websites. It supports a wide range of modern web technologies, including JavaScript modules, Vue.js, React, and TypeScript, and is designed to be highly extensible and configurable.
 
 ### How should we adopt it
+
 <!-- child_database 91331927-80eb-4985-81f7-a7a77b2791de -->

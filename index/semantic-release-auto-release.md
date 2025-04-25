@@ -18,4 +18,4 @@ semantic-release plays the same role with agile release train concept in order t
 
 ## Timeline
 
-* (2020-01-01) Adopted
+- (2020-01-01) Adopted

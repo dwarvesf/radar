@@ -51,4 +51,5 @@ Elixir can be used for a wide range of applications, including:
 Overall, Elixir's features make it a versatile language that can be used for a wide range of applications, from web development to real-time systems, distributed systems, IoT, and blockchain.
 
 ### How we adopted it
+
 <!-- child_database 9908a721-ab19-40bb-a82c-21c4a1820365 -->

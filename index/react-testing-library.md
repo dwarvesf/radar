@@ -27,4 +27,5 @@ React Testing Library provides a more user-centric approach to testing, focusing
 With React Testing Library, development teams can create more effective and realistic tests for their React applications. The tool can be used to test user interactions and behavior, ensuring that the application functions as expected from the user's perspective. Additionally, React Testing Library can help identify issues with accessibility, performance, and other important aspects of the application.
 
 ### How should we adopt it
+
 <!-- child_database 1f5e35d4-7623-4d90-807a-e8e1dc7b778b -->

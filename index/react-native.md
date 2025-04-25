@@ -44,4 +44,5 @@ React Native can be a great choice for building mobile apps, but it may not be t
 Overall, React Native is a good choice for building cross-platform mobile apps quickly and efficiently, especially if you have a team that is experienced with React and web development. However, it may not be the best choice for apps that require high performance or extensive customization.
 
 ### How should we adopt it
+
 <!-- child_database 907e6565-34a6-4b2a-9da4-7c372d934540 -->

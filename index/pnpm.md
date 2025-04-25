@@ -18,7 +18,7 @@ tag: Frontend
 
 A package manager for JavaScript that aims to improve the performance of the installation process and reduce disk space usage. It uses a unique approach to store dependencies in a shared store, rather than installing them multiple times for different projects. pnpm supports features such as multi-registry support, global installation, and zero-disk installations.
 
-> *pnpm's unique approach to dependency management is based on the concept of a "shared store." Instead of installing each dependency separately in each project directory, pnpm creates a single, centralized store where all packages are installed. When a project requires a package, pnpm creates a symbolic link from the project's *`***node_modules***`* directory to the shared store. This means that multiple projects can share the same copy of a package, which can help to reduce disk usage and avoid redundancies.*
+> _pnpm's unique approach to dependency management is based on the concept of a "shared store." Instead of installing each dependency separately in each project directory, pnpm creates a single, centralized store where all packages are installed. When a project requires a package, pnpm creates a symbolic link from the project's _`***node_modules***`_ directory to the shared store. This means that multiple projects can share the same copy of a package, which can help to reduce disk usage and avoid redundancies._
 
 ### What’s better about this method or library
 
@@ -32,15 +32,15 @@ A package manager for JavaScript that aims to improve the performance of the ins
 
 From a business standpoint:
 
-1. Improved development efficiency:  help to install packages more quickly and efficiently, reducing the time and effort required to set up new projects or make changes to existing ones.
+1. Improved development efficiency: help to install packages more quickly and efficiently, reducing the time and effort required to set up new projects or make changes to existing ones.
 1. Reduced infrastructure costs: by using a shared store to manage dependencies, help to reduce the amount of disk space required to store packages, potentially reducing the need for expensive storage infrastructure.
 1. Better scalability: pnpm's monorepo support and other features can make it easier to manage large and complex projects
 1. Increased flexibility: pnpm's support for multiple registries and package formats can make it easier to work with a wide range of third-party packages and tools
 
 ### How should we adopt it
 
-* Research blog posts for a better understanding of the concepts and principles behind, and also help to educate others in the team
-* Case studies into existing projects that already applied this
-* POC/Boilerplate that uses pnpm, bonus point if we also uses monorepo
+- Research blog posts for a better understanding of the concepts and principles behind, and also help to educate others in the team
+- Case studies into existing projects that already applied this
+- POC/Boilerplate that uses pnpm, bonus point if we also uses monorepo
 
 <!-- child_database 36feff7c-7c54-4ae8-a386-4fbd835ce444 -->

@@ -18,4 +18,4 @@ commitlint is a small tool to enforce contextual commit in order to automate ren
 
 ## Timeline
 
-* (2019-01-01) Adopted
+- (2019-01-01) Adopted

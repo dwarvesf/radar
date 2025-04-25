@@ -20,4 +20,4 @@ Kaniko is an alternative for docker in docker approach, it helps to build a dock
 
 ## Timeline
 
-* (2020-01-01) Adopted
+- (2020-01-01) Adopted

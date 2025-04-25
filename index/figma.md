@@ -11,4 +11,3 @@ status: Adopt
 quadrant: Tools
 tag: Design
 ---
-

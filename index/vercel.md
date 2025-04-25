@@ -31,4 +31,5 @@ Vercel can be used to deploy and host a wide range of applications, including st
 Additionally, Vercel offers a number of integrations with popular developer tools, including GitHub and GitLab. This allows developers to easily integrate Vercel into their existing workflow and streamline their development process.
 
 ### How should we adopt it?
+
 <!-- child_database babc2ca7-7b56-4dd8-b4d1-29f68b465f85 -->

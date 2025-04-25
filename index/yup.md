@@ -27,4 +27,5 @@ Yup is designed to be very flexible and customizable, with support for complex d
 With Yup, development teams can create robust and reliable data validation systems for their applications. The library can be used to validate form inputs, API requests, and other types of data structures, ensuring that the application receives the correct data and that it is properly formatted. Yup can also help prevent security vulnerabilities by validating user input and preventing injection attacks.
 
 ### How should we adopt it
+
 <!-- child_database ae64cb75-e9a2-42a6-855c-566368c0f837 -->

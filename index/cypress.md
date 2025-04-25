@@ -27,4 +27,5 @@ Cypress provides several advantages over traditional testing frameworks. Firstly
 With Cypress, development teams can write comprehensive and reliable end-to-end tests for their web applications, ensuring that their applications function correctly across different browsers and platforms. The framework provides a complete testing solution, including support for running tests in a continuous integration environment. By automating the testing process, Cypress can help reduce the time and effort required to manually test applications, allowing teams to focus on building new features and improving their applications.
 
 ### How should we adopt it
+
 <!-- child_database 21dc2194-e80f-48cc-b817-535a41a925f5 -->

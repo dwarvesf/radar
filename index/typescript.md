@@ -29,4 +29,5 @@ Another advantage of TypeScript is its ability to improve code maintainability a
 TypeScript can be used for both front-end and back-end development. On the front-end, TypeScript is commonly used with popular frameworks like React and Angular to improve code quality and maintainability. On the back-end, TypeScript can be used with Node.js to improve server-side code quality and to enable better communication between front-end and back-end codebases.
 
 ### How we adopted it
+
 <!-- child_database fe7f01bd-e932-4978-8411-9b8d405d8c18 -->
