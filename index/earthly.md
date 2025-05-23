@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: DevOps
+redirect:
+  - /s/mkR13A
 ---
 
 ## Description

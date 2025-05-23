@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Techniques
 tag: Testing, Automation
+redirect:
+  - /s/p7KA6w
 ---
 
 <!-- table_of_contents 9338fec0-67b5-4c02-b32c-0e5ce903674c -->

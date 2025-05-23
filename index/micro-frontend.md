@@ -10,6 +10,8 @@ priority: null
 status: Hold
 quadrant: Techniques
 tag: Frontend
+redirect:
+  - /s/TK5kxw
 ---
 
 <!-- table_of_contents 4327fa00-7e15-4800-baec-35e37231fe82 -->

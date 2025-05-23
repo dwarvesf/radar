@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Techniques
 tag: Management, Process
+redirect:
+  - /s/huYSAQ
 ---
 
 ## Description

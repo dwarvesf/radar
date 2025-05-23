@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Frameworks
 tag: Frontend, React-Native
+redirect:
+  - /s/8W0dew
 ---
 
 <!-- table_of_contents d99e0b45-ea08-41b9-a65a-ab9422a65813 -->

@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Techniques
 tag: Process, DevOps
+redirect:
+  - /s/s99szQ
 ---
 
 <!-- table_of_contents a518729d-8d98-4b05-a9cf-e3615cd06f05 -->

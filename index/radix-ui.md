@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Trial
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/6fTStA
 ---
 
 <!-- table_of_contents 5747103a-5f15-4a83-a587-1a8e911b59e0 -->

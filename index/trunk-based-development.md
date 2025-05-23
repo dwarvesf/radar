@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Techniques
 tag: DevOps
+redirect:
+  - /s/6VT7VQ
 ---
 
 <!-- table_of_contents 170f6502-6672-4224-9cdf-8b66efb08881 -->

@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Frameworks
 tag: Testing, Automation, React-Native
+redirect:
+  - /s/6ned-Q
 ---
 
 <!-- table_of_contents 05aaece9-2816-47ea-9026-4f43def454ad -->

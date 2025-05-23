@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Diagram, Document
+redirect:
+  - /s/QyMoXA
 ---

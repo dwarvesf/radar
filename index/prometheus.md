@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/lrr0Eg
 ---
 
 <!-- table_of_contents 46c2ef0c-2d22-42b6-8f6b-d5acaa375e1b -->

@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: DevOps
+redirect:
+  - /s/InyaTA
 ---
 
 <!-- table_of_contents 462122a8-6d29-4683-9faf-95ee3a2f64f9 -->

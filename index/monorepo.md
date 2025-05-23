@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Techniques
 tag: Frontend, Backend
+redirect:
+  - /s/W1jTbA
 ---
 
 <!-- table_of_contents 18337690-8620-4518-832c-e3248abb2fbe -->

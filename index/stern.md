@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: DevOps
+redirect:
+  - /s/pKyu9g
 ---

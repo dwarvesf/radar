@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: Frontend, React
+redirect:
+  - /s/uoDBTg
 ---
 
 <!-- table_of_contents fa178afc-b99a-4004-900d-b5e69778b602 -->

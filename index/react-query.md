@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Assess
 quadrant: Frameworks
 tag: Frontend
+redirect:
+  - /s/YSHqSw
 ---
 
 <!-- table_of_contents 570b108f-a120-4523-863c-a37915aee880 -->

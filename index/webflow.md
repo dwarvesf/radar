@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Design, Frontend
+redirect:
+  - /s/Aplv6w
 ---
 
 ## Description

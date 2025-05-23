@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Design
+redirect:
+  - /s/MB_hbQ
 ---

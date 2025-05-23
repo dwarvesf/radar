@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/6PkTnQ
 ---
 
 ## Description

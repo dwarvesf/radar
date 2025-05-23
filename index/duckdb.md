@@ -10,6 +10,8 @@ priority: null
 status: null
 quadrant: Tools
 tag: null
+redirect:
+  - /s/Lu7RIg
 ---
 
 <!-- table_of_contents 282332bc-e49e-4234-a386-5ad0d0050320 -->

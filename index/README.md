@@ -6,4 +6,6 @@ authors:
 tags:
   - dwarves
   - radar
+redirect:
+  - /s/T1QGcg
 ---

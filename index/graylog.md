@@ -10,4 +10,6 @@ priority: null
 status: Archived
 quadrant: Tools
 tag: DevOps
+redirect:
+  - /s/9RW3IA
 ---

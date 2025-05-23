@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Platforms
 tag: Frontend
+redirect:
+  - /s/sFifMQ
 ---
 
 <!-- table_of_contents 6415f538-f209-4402-a1d8-05d522e91fdc -->

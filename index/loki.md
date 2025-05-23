@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/dL-TSQ
 ---
 
 ## Description

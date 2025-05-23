@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Frameworks
 tag: Frontend
+redirect:
+  - /s/eYEDEg
 ---
 
 <!-- table_of_contents 6a2b54bd-b5ac-481e-a530-4cfb1f9a4cfc -->

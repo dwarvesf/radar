@@ -10,6 +10,8 @@ priority: 🎯FOCUS
 status: Trial
 quadrant: Techniques
 tag: Frontend
+redirect:
+  - /s/6-uyZw
 ---
 
 <!-- table_of_contents 59f48ef1-694b-475b-8b4c-ac039e75e23f -->

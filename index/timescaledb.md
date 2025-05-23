@@ -10,6 +10,8 @@ priority: null
 status: Trial
 quadrant: Platforms
 tag: Database
+redirect:
+  - /s/JiPv2w
 ---
 
 ### Description

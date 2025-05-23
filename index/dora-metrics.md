@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Techniques
 tag: DevOps
+redirect:
+  - /s/kbLMcQ
 ---
 
 <!-- table_of_contents 8efc9b7b-5df0-4143-a241-1e83e499598a -->

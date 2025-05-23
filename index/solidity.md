@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Languages
 tag: Blockchain, ETH
+redirect:
+  - /s/kNVcAQ
 ---

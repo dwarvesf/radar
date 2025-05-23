@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Frameworks
 tag: Frontend, React-Native
+redirect:
+  - /s/rHuB2Q
 ---
 
 <!-- table_of_contents b020f645-5c39-4977-afb4-84d67b2101d4 -->

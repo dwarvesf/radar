@@ -9,6 +9,8 @@ assign: Thanh Pham
 priority:
 status: Assess
 quadrant: Frameworks
+redirect:
+  - /s/hW-Z0g
 ---
 
 <!-- table_of_contents b118734d-b0a4-4658-87fc-f48938aad6f8 -->

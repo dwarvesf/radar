@@ -10,6 +10,8 @@ priority: null
 status: Hold
 quadrant: Techniques
 tag: Database, Backend
+redirect:
+  - /s/bctlqg
 ---
 
 <!-- table_of_contents 2d7c73db-9777-4311-ba52-65704e503860 -->

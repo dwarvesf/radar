@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/TWi37Q
 ---
 
 [https://www.serverlessq.com/](https://www.serverlessq.com/)

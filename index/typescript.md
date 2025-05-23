@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Languages
 tag: Frontend, Backend
+redirect:
+  - /s/wejinw
 ---
 
 <!-- table_of_contents b3a49b5f-ef55-41a9-a6dc-d73e62723743 -->

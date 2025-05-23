@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Assess
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/zPnS5Q
 ---
 
 <!-- table_of_contents 72f71899-bb04-436e-9d01-75fa1207c8a3 -->

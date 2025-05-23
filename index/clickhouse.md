@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: Database
+redirect:
+  - /s/G5cWeA
 ---

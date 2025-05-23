@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Scripting, Automation
+redirect:
+  - /s/2Csalw
 ---
 
 <!-- table_of_contents a7d84bf9-34c0-4678-912b-4bfdb724d93f -->

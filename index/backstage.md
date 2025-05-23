@@ -10,4 +10,6 @@ priority: null
 status: Backlog
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/WUa4hw
 ---

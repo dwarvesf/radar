@@ -10,4 +10,6 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Scripting
+redirect:
+  - /s/5EGthg
 ---

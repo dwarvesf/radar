@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/Mb2jjg
 ---
 
 <!-- table_of_contents 3703fc4b-fae8-4a7d-822b-856c9f151838 -->

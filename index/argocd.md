@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/sK_Y7w
 ---
 
 <!-- table_of_contents 52d4b4c8-7a91-4fa7-88dc-764ca6ffebae -->

@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Frameworks
 tag: Frontend
+redirect:
+  - /s/ftaT5w
 ---
 
 <!-- table_of_contents cdc90a61-da01-4542-b50d-20370d2f3cac -->

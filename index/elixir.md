@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Languages
 tag: Backend
+redirect:
+  - /s/HiE8sw
 ---
 
 <!-- table_of_contents 4b924632-cef6-49c5-a81a-9b329817c430 -->

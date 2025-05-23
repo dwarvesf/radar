@@ -10,6 +10,8 @@ priority: 🌟 NEW , 🎯FOCUS
 status: Trial
 quadrant: Tools
 tag: DevOps, Engineering
+redirect:
+  - /s/AgyLQQ
 ---
 
 <!-- table_of_contents 4521d678-6c77-4478-9787-1c5f108fd675 -->

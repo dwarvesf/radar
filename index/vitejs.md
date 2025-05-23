@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/xvuG3A
 ---
 
 <!-- table_of_contents 5df89459-f078-4396-857b-8b01aba6afd5 -->

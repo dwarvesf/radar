@@ -7,6 +7,8 @@ authors:
   - zlatanpham
 tags:
   - radar
+redirect:
+  - /s/M8twUA
 ---
 
 ## Tech radar overview

@@ -10,4 +10,6 @@ priority: null
 status: Archived
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/dQ5l1w
 ---

@@ -10,6 +10,8 @@ priority: null
 status: Trial
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/Qde9xg
 ---
 
 <!-- table_of_contents 340a9a4e-3845-4ace-ab75-f99b83ced0dc -->

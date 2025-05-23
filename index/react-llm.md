@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Backlog
 quadrant: Frameworks
 tag: Frontend
+redirect:
+  - /s/JSMgdQ
 ---
 
 <!-- table_of_contents 5248ba5c-7d76-4cca-8ffb-87c8d8a15ea1 -->

@@ -10,6 +10,8 @@ priority: null
 status: Assess
 quadrant: Tools
 tag: null
+redirect:
+  - /s/b8FoMA
 ---
 
 <!-- table_of_contents f9784ea6-bc24-4b76-a097-e07b6e0cec47 -->

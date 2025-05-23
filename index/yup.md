@@ -10,6 +10,8 @@ priority: null
 status: Hold
 quadrant: Frameworks
 tag: Frontend, Backend
+redirect:
+  - /s/ghkWRg
 ---
 
 <!-- table_of_contents 54aa0f68-3623-4965-a242-59e6e22eee4a -->

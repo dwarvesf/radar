@@ -10,6 +10,8 @@ priority: null
 status: Trial
 quadrant: Techniques
 tag: DevOps
+redirect:
+  - /s/ETcXkQ
 ---
 
 <!-- table_of_contents 66998eab-bb47-4afb-836a-f18e243ce4c6 -->

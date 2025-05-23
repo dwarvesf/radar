@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/JxNPfw
 ---
 
 ## Description

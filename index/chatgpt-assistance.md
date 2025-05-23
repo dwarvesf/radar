@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Adopt
 quadrant: Tools
 tag: Automation
+redirect:
+  - /s/knKzmw
 ---
 
 <!-- table_of_contents 96fdfd99-58f5-4ad7-a48d-51215ab8dd20 -->

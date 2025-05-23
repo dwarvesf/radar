@@ -10,6 +10,8 @@ priority: null
 status: Assess
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/SaQEVw
 ---
 
 <!-- table_of_contents 38a9464e-c2ac-4dd8-9f61-b46e92040de8 -->

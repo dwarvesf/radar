@@ -10,6 +10,8 @@ priority: 🌟 NEW
 status: Backlog
 quadrant: Tools
 tag: Frontend
+redirect:
+  - /s/XI_IHw
 ---
 
 <!-- table_of_contents 9a1faf28-164b-4428-a249-bb72870c256a -->

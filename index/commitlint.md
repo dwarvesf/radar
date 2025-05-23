@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Tools
 tag: CLI, Automation
+redirect:
+  - /s/gnN3pA
 ---
 
 ## Description

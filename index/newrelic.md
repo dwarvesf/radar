@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Tools
 tag: DevOps
+redirect:
+  - /s/4VCs8g
 ---
 
 <!-- table_of_contents 8e632ae2-3f75-4369-8d81-55f96df6c4fb -->

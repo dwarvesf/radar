@@ -10,6 +10,8 @@ priority: null
 status: Backlog
 quadrant: Techniques
 tag: Testing
+redirect:
+  - /s/9_Reyg
 ---
 
 <!-- table_of_contents 4d49279e-fd0e-4cc1-8bc7-2a25671ee337 -->

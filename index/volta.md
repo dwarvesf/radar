@@ -10,6 +10,8 @@ priority: null
 status: Archived
 quadrant: Tools
 tag: Frontend, CLI
+redirect:
+  - /s/Ffgs7g
 ---
 
 <!-- table_of_contents 69c57a0c-b438-4bc1-8f3d-763624529e93 -->

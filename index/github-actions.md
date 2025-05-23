@@ -10,6 +10,8 @@ priority: null
 status: Adopt
 quadrant: Platforms
 tag: DevOps
+redirect:
+  - /s/nEktLA
 ---
 
 <!-- table_of_contents 87cfccd9-6608-4a4d-9239-323caeeb2953 -->
