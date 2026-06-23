@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Semantic Release Auto Release
 date: null

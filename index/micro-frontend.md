@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Micro Frontend
 date: null

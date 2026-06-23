@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Page Object Model
 date: null

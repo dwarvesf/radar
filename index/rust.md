@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Rust
 date: null
