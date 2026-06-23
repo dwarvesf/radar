@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Blue Green Deployment
 date: null

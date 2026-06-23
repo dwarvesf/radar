@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Gestalt Principle
 date: null

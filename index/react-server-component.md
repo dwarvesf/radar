@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: React Server Component
 date: null

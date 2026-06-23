@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Kubeseal Sops
 date: null

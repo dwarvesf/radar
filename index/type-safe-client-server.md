@@ -1,4 +1,5 @@
 ---
+draft: true
 tags: null
 title: Type Safe Client Server
 date: null
